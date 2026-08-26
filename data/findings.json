@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "type": "peer_reviewed",
+    "title": "Mapping the geographical imbalance in space syntax research",
+    "summary": "Imagine a scientific world in which researchers everywhere have equal opportunities to publish and gain recognition. Far from being an exception, space syntax research is shaped by structural inequalities that privilege Northern institutions and epistemologies. While existing bibliometric reviews broadly map the field, they overlook how selective indexing structures global visibility. Drawing on 2,323 Web of Science–indexed space syntax articles, this review examines publication growth, citation impact, and journal landscapes across regions. The findings show that although research activity is expanding globally, particularly in Asia, citation impact remains concentrated in the United States and the United Kingdom. Elite Northern journals dominate the field, while Southern scholarship largely circulates in less visible venues, reinforcing enduring geographical imbalances in knowledge production.",
+    "url": "https://doi.org/10.18778/1231-1952.33.1.03",
+    "doi": "10.18778/1231-1952.33.1.03",
+    "date": "2026-04-30",
+    "year": 2026,
+    "authors": [
+      "Abdelbaseer A. Mohamed"
+    ],
+    "source": "European Spatial Research and Policy",
+    "volume": "33",
+    "issue": "1",
+    "first_page": "191",
+    "last_page": "208",
+    "query": "European research security",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "research",
+      "science",
+      "United States"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research",
+        "science"
+      ],
+      "geopolitical": [
+        "United States"
+      ]
+    },
+    "score": 154,
+    "fingerprint": "doi:10.18778/1231-1952.33.1.03",
+    "discovered_utc": "2026-08-26T14:00:59+00:00",
+    "rotation": {
+      "keywords": [
+        "research-security",
+        "funding-competitiveness"
+      ],
+      "journal_group": "ri-policy-core",
+      "report_group": "europe-thinktanks",
+      "news_group": "international-news"
+    }
+  }
+]
