@@ -1,0 +1,188 @@
+{
+  "window_days": 183,
+  "min_distinct_keyword_hits": 2,
+  "max_new_per_run": {
+    "peer_reviewed": 18,
+    "report": 12,
+    "news": 6
+  },
+  "mandatory_categories": ["eu", "ri", "geopolitical"],
+  "category_terms": {
+    "eu": [
+      "European Union", "EU", "Europe", "European", "Horizon Europe", "European Research Area", "ERA"
+    ],
+    "ri": [
+      "research", "innovation", "science", "technology", "R&D", "R&I", "Horizon Europe", "framework programme", "university", "universities", "academic"
+    ],
+    "geopolitical": [
+      "research security", "knowledge security", "economic security", "technology security", "strategic autonomy", "technological sovereignty", "strategic dependency", "strategic dependencies", "de-risking", "export control", "export controls", "investment screening", "foreign interference", "technology leakage", "knowledge transfer", "dual-use", "dual use", "critical technology", "critical technologies", "science diplomacy", "sanctions", "national security", "defence", "defense", "China", "Chinese", "United States", "U.S.", "US", "Russia", "Russian", "Ukraine", "Taiwan", "Indo-Pacific", "transatlantic"
+    ]
+  },
+  "keyword_batches": [
+    {
+      "name": "research-security",
+      "queries": [
+        "European research security",
+        "EU innovation foreign interference",
+        "Horizon Europe technology leakage",
+        "European university knowledge security"
+      ],
+      "keywords": [
+        "research security", "knowledge security", "foreign interference", "technology leakage", "trusted research", "due diligence", "international research cooperation", "Horizon Europe"
+      ]
+    },
+    {
+      "name": "economic-security",
+      "queries": [
+        "EU research economic security",
+        "European innovation strategic autonomy",
+        "Europe technology de-risking",
+        "EU R&D strategic dependencies"
+      ],
+      "keywords": [
+        "economic security", "strategic autonomy", "technological sovereignty", "strategic dependency", "strategic dependencies", "de-risking", "export controls", "investment screening"
+      ]
+    },
+    {
+      "name": "critical-tech-dual-use",
+      "queries": [
+        "EU research critical technologies",
+        "European innovation dual-use",
+        "Europe R&D semiconductors quantum biotechnology",
+        "EU technology security artificial intelligence"
+      ],
+      "keywords": [
+        "critical technologies", "dual-use", "dual use", "semiconductors", "artificial intelligence", "AI", "quantum", "biotechnology", "space technology", "cybersecurity", "technology security"
+      ]
+    },
+    {
+      "name": "funding-competitiveness",
+      "queries": [
+        "Horizon Europe competitiveness geopolitics",
+        "EU research funding strategic autonomy",
+        "European innovation gap China United States",
+        "EU framework programme technology sovereignty"
+      ],
+      "keywords": [
+        "Horizon Europe", "framework programme", "FP10", "European Competitiveness Fund", "R&D funding", "R&I funding", "innovation gap", "competitiveness", "China", "United States"
+      ]
+    },
+    {
+      "name": "science-diplomacy-cooperation",
+      "queries": [
+        "EU science diplomacy research cooperation",
+        "European research international cooperation geopolitics",
+        "Horizon Europe association strategic interests",
+        "European science academic freedom geopolitical"
+      ],
+      "keywords": [
+        "science diplomacy", "international cooperation", "research cooperation", "Horizon Europe association", "academic freedom", "global approach", "strategic interests", "open and secure"
+      ]
+    },
+    {
+      "name": "china-us-russia-ukraine",
+      "queries": [
+        "EU research China technology security",
+        "European innovation United States China competition",
+        "EU science Russia Ukraine sanctions",
+        "Europe research transatlantic technology"
+      ],
+      "keywords": [
+        "China", "Chinese", "United States", "U.S.", "US", "Russia", "Russian", "Ukraine", "sanctions", "transatlantic", "Taiwan", "Indo-Pacific", "technology competition"
+      ]
+    }
+  ],
+  "journal_groups": [
+    {
+      "name": "ri-policy-core",
+      "journals": [
+        "Research Policy",
+        "Science and Public Policy",
+        "Research Evaluation",
+        "Industry and Innovation",
+        "Technological Forecasting and Social Change"
+      ]
+    },
+    {
+      "name": "europe-geopolitics",
+      "journals": [
+        "Journal of European Public Policy",
+        "Journal of Common Market Studies",
+        "European Security",
+        "International Affairs",
+        "Global Policy"
+      ]
+    },
+    {
+      "name": "science-tech-society",
+      "journals": [
+        "Minerva",
+        "Science, Technology, & Human Values",
+        "Technology in Society",
+        "European Journal of International Security",
+        "Defence and Peace Economics"
+      ]
+    }
+  ],
+  "report_groups": [
+    {
+      "name": "eu-oecd",
+      "sources": [
+        {"name": "European Commission - Research and Innovation", "domain": "research-and-innovation.ec.europa.eu"},
+        {"name": "European Commission", "domain": "commission.europa.eu"},
+        {"name": "Joint Research Centre", "domain": "joint-research-centre.ec.europa.eu"},
+        {"name": "European Parliament Think Tank", "domain": "europarl.europa.eu"},
+        {"name": "OECD", "domain": "oecd.org"}
+      ]
+    },
+    {
+      "name": "europe-thinktanks",
+      "sources": [
+        {"name": "Bruegel", "domain": "bruegel.org"},
+        {"name": "MERICS", "domain": "merics.org"},
+        {"name": "ECFR", "domain": "ecfr.eu"},
+        {"name": "CEPS", "domain": "ceps.eu"},
+        {"name": "EUISS", "domain": "iss.europa.eu"}
+      ]
+    },
+    {
+      "name": "security-strategy",
+      "sources": [
+        {"name": "NATO", "domain": "nato.int"},
+        {"name": "SIPRI", "domain": "sipri.org"},
+        {"name": "Chatham House", "domain": "chathamhouse.org"},
+        {"name": "Carnegie Europe", "domain": "carnegieeurope.eu"},
+        {"name": "European University Institute", "domain": "eui.eu"}
+      ]
+    }
+  ],
+  "news_groups": [
+    {
+      "name": "eu-policy-news",
+      "sources": [
+        {"name": "Science|Business", "domain": "sciencebusiness.net"},
+        {"name": "POLITICO Europe", "domain": "politico.eu"},
+        {"name": "Euractiv", "domain": "euractiv.com"},
+        {"name": "Reuters", "domain": "reuters.com"}
+      ]
+    },
+    {
+      "name": "research-news",
+      "sources": [
+        {"name": "Nature", "domain": "nature.com"},
+        {"name": "Science", "domain": "science.org"},
+        {"name": "Research Professional News", "domain": "researchprofessionalnews.com"},
+        {"name": "Times Higher Education", "domain": "timeshighereducation.com"}
+      ]
+    },
+    {
+      "name": "international-news",
+      "sources": [
+        {"name": "Reuters", "domain": "reuters.com"},
+        {"name": "Financial Times", "domain": "ft.com"},
+        {"name": "BBC", "domain": "bbc.com"},
+        {"name": "Deutsche Welle", "domain": "dw.com"}
+      ]
+    }
+  ]
+}

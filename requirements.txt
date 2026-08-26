@@ -1,3 +1,2 @@
-requests>=2.31
-feedparser>=6.0
-cryptography>=42.0
+requests>=2.32,<3
+cryptography>=44,<47
