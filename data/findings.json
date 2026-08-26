@@ -1,6 +1,181 @@
 [
   {
     "type": "peer_reviewed",
+    "title": "Research security by roundtable: analysis of Germany’s committees for the ethics of security-relevant research",
+    "summary": "Abstract An increasingly fractured geopolitical environment is driving substantial change in the conduct of international academic research. In the European Union (EU) Member States have enacted numerous measures designed to limit or eliminate risks of espionage, foreign interference and illicit technological theft. However, these same measures are often rejected or resisted by higher education institutions, claiming they unnecessarily complicate research, stifle innovation and infringe on academic freedom. This paper seeks to examine one research security measure adopted in Germany. These Committees for Ethics in Security-Relevant Research (in German, Kommissionen für Ethik sicherheitsrelevanter Forschung or KEF) aim to provide researchers with guidance on ‘research of concern’ and—where necessary—the imposition of any regulatory controls or safeguards to the protection of that research. This paper presents a normative defence of Germany’s model for academic self-regulation and proposes that model for other States to possibly emulate in research security.",
+    "url": "https://doi.org/10.1093/scipol/scag028",
+    "doi": "10.1093/scipol/scag028",
+    "date": "2026-04-28",
+    "year": 2026,
+    "authors": [
+      "Brendan Walker-Munro"
+    ],
+    "source": "Science and Public Policy",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "European research security",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "research",
+      "innovation",
+      "science",
+      "academic",
+      "research security",
+      "foreign interference",
+      "defence"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research",
+        "innovation",
+        "science",
+        "academic"
+      ],
+      "geopolitical": [
+        "research security",
+        "foreign interference",
+        "defence"
+      ]
+    },
+    "score": 189,
+    "fingerprint": "doi:10.1093/scipol/scag028",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "The EU’s Struggle for Strategic Autonomy",
+    "summary": "European strategic autonomy has been discussed prominently in the context of defence issues and the EU’s relationship with NATO and the US. Despite being a contemporary phenomenon in the EU’s foreign policy debate, it has only recently become of central importance in academic analysis. The broader concept of strategic autonomy has evolved from a foreign-policy principle in the EU’s 2016 Global Strategy, to the economic realm with the bloc’s new commitment to ‘open strategic autonomy’ in 2020. This article will examine the newly created imbalances in US-EU relations and how they are impacting the vision of strategic autonomy in Europe. Under the growing weight of the US in the relationship, Europeans feel increasingly incapable of acting, while the US feels increasingly less interested in what Europeans think about security issues. Under Joe Biden’s administration, there was a willingness and forbearance to keep the transatlantic partnership with Europe intact. This has now fundamentally changed, for example with President Donald Trump’s unilateral approaches to the Gaza and Iran conflicts and the resolution of the Ukraine conflict. John J. Mearsheimer’s offensive realism positions the international system as irredeemably anarchic, compelling states to pursue power maximisation to ensure survival. Offensive realism also offers insight into the structural constraints on the EU’s geopolitical ambitions as anarchy rewards power accumulation and penalises dependency. The article will also analyse the most divisive issues confronting the EU and the Franco-German alliance, which have roots in the worldview of the two countries. German post-war identity rests partly on a military alliance with the US and partly on a strong aversion to public debt; President Emmanuel Macron’s vision of a sovereign Europe is a logical extension of long-standing French trade protectionism and ambivalence towards a permanent role in Europe for the US. Resolving these different outlooks is now key to the EU’s future and to European strategic autonomy.",
+    "url": "https://doi.org/10.1353/isia.0.a989594",
+    "doi": "10.1353/isia.0.a989594",
+    "date": "2026-04-01",
+    "year": 2026,
+    "authors": [
+      "John Ryan"
+    ],
+    "source": "Irish Studies in International Affairs",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "Horizon Europe association strategic interests",
+    "matched_keywords": [
+      "EU",
+      "Europe",
+      "European",
+      "academic",
+      "strategic autonomy",
+      "defence",
+      "US",
+      "Ukraine",
+      "transatlantic"
+    ],
+    "matched_categories": {
+      "eu": [
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "academic"
+      ],
+      "geopolitical": [
+        "strategic autonomy",
+        "defence",
+        "US",
+        "Ukraine",
+        "transatlantic"
+      ]
+    },
+    "score": 187,
+    "fingerprint": "doi:10.1353/isia.0.a989594",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Signalling and Balancing in the Conflict in Ukraine from 2014 to 2016: Ukrainian Actors, Russia and the European Union",
+    "summary": "This paper analyses the conflictual and cooperative signals of two domestic actors – the Ukrainian government and the Ukrainian separatists – and two international actors – the European Union and the Russian Federation – during the first three years of the conflict in Ukraine. Previous studies largely treated the actions of domestic actors as a dependent variable and the actions of international actors as an independent variable. Our results demonstrate that the European Union and the Russian Federation, far from being independent players, assume the role of an ‘error correction mechanism’ by counterbalancing and counteracting the unbalanced and non-reciprocal interactions of the Ukrainian government and the Ukrainian separatists, thereby transforming an otherwise asymmetric conflict into a symmetric one. The paper discusses liberal institutionalist, social constructivist and offensive realist explanations for the observed behaviour and demonstrates why the offensive realist explanation fares best in light of Russia’s massive escalation in 2022.",
+    "url": "https://doi.org/10.51870/ijbj9586",
+    "doi": "10.51870/ijbj9586",
+    "date": "2026-05-05",
+    "year": 2026,
+    "authors": [
+      "Jan Niklas Rolf",
+      "Oliver Serfling"
+    ],
+    "source": "Central European Journal of International and Security Studies",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU science Russia Ukraine sanctions",
+    "matched_keywords": [
+      "European Union",
+      "Europe",
+      "European",
+      "R&D",
+      "Russia",
+      "Russian",
+      "Ukraine"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "R&D"
+      ],
+      "geopolitical": [
+        "Russia",
+        "Russian",
+        "Ukraine"
+      ]
+    },
+    "score": 183,
+    "fingerprint": "doi:10.51870/ijbj9586",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "Governing knowledge, shaping Europe: research security in the EU’s geopolitical turn",
     "summary": "",
     "url": "https://doi.org/10.1080/09662839.2026.2680646",
@@ -47,6 +222,58 @@
       "journal_group": "europe-geopolitics",
       "report_group": "security-strategy",
       "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "THE NORTHERN SOLIDARITY MODEL IN THE EUROPEAN SECURITY SYSTEM AND ITS SIGNIFICANCE FOR TRANSFORMATIONAL PROCESSES IN EUROPE",
+    "summary": "The article examines the model of Nordic solidarity as a specific form of institutional, political, defense-related and resource-based response of the Nordic countries to the crisis of European security caused by Russia’s full-scale aggression against Ukraine. In contrast to approaches that reduce support for Ukraine to a set of military or financial aid packages, the article proposes a broader interpretation of Nordic solidarity as an operational model in which shared values, high institutional trust, a developed culture of societal resilience, regional coordination, defense readiness and long-term planning are transformed into practical security mechanisms. The methodological basis of the study combines institutional, comparative, indicator-based and analytical-synthetic approaches. The empirical base is formed using academic literature, NORDEFCO and Nordic Council of Ministers documents, Ukraine–NB8 statements, national governmental materials of Denmark, Norway, Sweden, Finland and Iceland, the Ukraine Support Tracker of the Kiel Institute and NATO defense expenditure data for 2014–2025. The article shows that Nordic solidarity has a multi-level architecture consisting of normative-value, political-communicative, institutional-coordination, defense-resource, societal-resilience and reconstruction-technological dimensions. The quantitative analysis demonstrates that military allocations by the Nordic countries to Ukraine increased substantially in 2022–2025, while their share in European military allocations rose from 11.9% in 2022 to 31.9% in 2025. At the same time, defense expenditure in Denmark, Finland, Norway and Sweden increased both as a share of GDP and in real terms in 2014–2025, indicating a close link between support for Ukraine and the rearmament of the Nordic region itself. The article argues that the significance of this model for Ukraine lies in the transition from the role of an aid recipient to the role of a partner that contributes to European security through combat experience, technological solutions, defense-industrial cooperation and societal resilience. For Europe, Nordic solidarity functions as a mechanism of security regionalization, strengthening of the north-eastern flank, practical rethinking of strategic responsibility and transition from declarative support to shared security action.",
+    "url": "https://doi.org/10.70651/3041-2498/2026.5.02",
+    "doi": "10.70651/3041-2498/2026.5.02",
+    "date": "2026-05-02",
+    "year": 2026,
+    "authors": [
+      "Illia Myronov"
+    ],
+    "source": "Public Management and Policy",
+    "volume": null,
+    "issue": "5(21)",
+    "first_page": null,
+    "last_page": null,
+    "query": "European research security",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "academic",
+      "defense",
+      "Russia",
+      "Ukraine"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "academic"
+      ],
+      "geopolitical": [
+        "defense",
+        "Russia",
+        "Ukraine"
+      ]
+    },
+    "score": 177,
+    "fingerprint": "doi:10.70651/3041-2498/2026.5.02",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
     }
   },
   {
@@ -102,6 +329,323 @@
       "journal_group": "europe-geopolitics",
       "report_group": "security-strategy",
       "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "“A Lie Cannot Live”: How Research Misconduct Allegations Could Become Weaponised in Academia",
+    "summary": "Abstract In this article, we discuss the emerging prominence of ‘strategic lawsuits against public participation’ (SLAPPs) across Europe and the United Kingdom as mechanisms for chilling academic discourse, particularly around topics considered unpalatable to foreign governments. We argue that the increased prominence of SLAPPs foreshadows a new form of abuse of legal process against universities that attempt to protect their researchers: vexatious or malicious complaints of research misconduct against academics and universities, using what we term here as ‘strategic complaints against researchers’ (SCAR). Identifying the possibility of SCARs as an emergent form of procedural abuse will assist universities in formulating policies and practices that separate legitimate grievances from acts of foreign interference. Together with government, funding agencies and industry partners, the higher education sector should take the lead in focusing research misconduct standards on identifying, triaging, and (where necessary) eliminating abuses of the research misconduct system aimed at chilling academic inquiry.",
+    "url": "https://doi.org/10.1007/s11024-026-09660-z",
+    "doi": "10.1007/s11024-026-09660-z",
+    "date": "2026-08-19",
+    "year": 2026,
+    "authors": [
+      "Brendan Walker-Munro",
+      "Mohiuddin Ahmed"
+    ],
+    "source": "Minerva",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU research China technology security",
+    "matched_keywords": [
+      "Europe",
+      "research",
+      "universities",
+      "academic",
+      "foreign interference"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe"
+      ],
+      "ri": [
+        "research",
+        "universities",
+        "academic"
+      ],
+      "geopolitical": [
+        "foreign interference"
+      ]
+    },
+    "score": 174,
+    "fingerprint": "doi:10.1007/s11024-026-09660-z",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "POLICIES OF MEMORY REGARDING WORLD WAR II AS AN ELEMENT OF THE EUROPEAN COLLECTIVE SECURITY SYSTEM: ADMINISTRATIVE AND LEGAL ASPECTS",
+    "summary": "This article examines European policies of remembrance regarding World War II, which constitute an important element of the collective security system in Europe. The study aims to conduct a comprehensive analysis of the administrative and legal foundations of European policies of remembrance regarding World War II. To achieve this goal, the study examines European collective memory and Ukrainian national memory. The methodological framework of the study comprises general scientific and specialized research methods from various fields of science, among which the methods of systems analysis, formal-logical analysis, legal analysis, content analysis, and the comparative-historical method played a significant role. The source base of the study consisted of international and Ukrainian legal acts that regulate and govern public policy regarding European collective and national memory. The results of the study demonstrate that the formation of the modern administrative and legal foundations of European memory policy regarding World War II consisted of the development of pan-European approaches to the assessment of Nazi and Communist totalitarian regimes. The article examines the administrative and legal foundations for regulating issues related to the condemnation of crimes committed by totalitarian regimes, the recognition and commemoration of their victims, the memorialization of World War II, and so on. Attention is given to the inclusive dimension of contemporary European memory policy, which entails taking into account the historical past of various peoples (the Holocaust, the genocide of the Roma, and the genocide of the Crimean Tatar people). The article examines the role of international organizations in promoting educational and commemorative practices within the context of memory policy. The article analyzes the transformations of public policy on national memory in Ukraine in the context of European integration, particularly changes in commemorative practices after 2014, the legislative enshrinement of new approaches to commemorating World War II, the rejection of Soviet narratives, and integration into the pan-European memory discourse. It is concluded that contemporary European memory policy regarding World War II emerges as an important tool for strengthening collective security in Europe. It is based on coordinated legal and value-based approaches to condemning totalitarian regimes, honoring the memory of victims, and fostering a culture of accountability. Ukraine is actively integrating into the European memory space by adapting its own memory policy to European standards and values. At the same time, the Russian-Ukrainian war highlights the need to further develop this policy as a tool for the legal assessment and condemnation of war crimes and crimes against humanity, the strengthening of the international legal order, and the consolidation of democratic states’ efforts to counter contemporary threats.",
+    "url": "https://doi.org/10.70651/3041-2498/2026.3.20",
+    "doi": "10.70651/3041-2498/2026.3.20",
+    "date": "2026-03-24",
+    "year": 2026,
+    "authors": [
+      "Svitlana Vlasenko",
+      "Oleksii Verbovyi"
+    ],
+    "source": "Public Management and Policy",
+    "volume": null,
+    "issue": "3(19)",
+    "first_page": null,
+    "last_page": null,
+    "query": "European research security",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "research",
+      "science",
+      "Russia",
+      "Russian",
+      "Ukraine"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research",
+        "science"
+      ],
+      "geopolitical": [
+        "Russia",
+        "Russian",
+        "Ukraine"
+      ]
+    },
+    "score": 174,
+    "fingerprint": "doi:10.70651/3041-2498/2026.3.20",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Infrastructuring Security: Corporate Authority Through Epistemic Control",
+    "summary": "Abstract New geopolitical tensions and the rise of hybrid threats have accelerated Western “whole-of-society” approaches to societal security and resilience. One consequence of this shift is the securitization of corporate entities; whereby corporate functions are reframed as instruments of national security. In this context, proprietary dual-use technologies are adapted to meet new security requirements. This article argues that such adaptation redistributes authority from state to corporate actors, and that this shift is mediated through epistemic control grounded in proprietary technologies and expert routines rather than formal delegation. Empirically, the article examines these dynamics in and around the Norwegian petroleum sector in the days following the 2022 sabotage of the Nord Stream pipelines. I introduce infrastructuring security as a conceptual mechanism capturing how security functions become embedded in corporate sociotechnical systems, thereby consolidating the petroleum industry’s position of power within the governance network of critical maritime infrastructure protection. Drawing on interviews with petroleum industry actors, marine technology service providers, and the Norwegian Armed Forces, the article illustrates how this mechanism operates in practice, focusing analysis on the subsea domain. The empirical analysis is informed by theoretical assumptions from the Paris School of Critical Security Studies. I further discuss the tension arising between technological transformation, democratic oversight and security governance as authority becomes infrastructured through corporate sociotechnical arrangements. The article concludes with summarizing remarks and suggests future research avenues where infrastructuring security as a conceptual mechanism may provide a critical, power-attentive approach to technologically mediated security governance.",
+    "url": "https://doi.org/10.1007/s41125-026-00112-z",
+    "doi": "10.1007/s41125-026-00112-z",
+    "date": "2026-05-18",
+    "year": 2026,
+    "authors": [
+      "Jakob Seland Amundsen"
+    ],
+    "source": "European Journal for Security Research",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU research China technology security",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "research",
+      "technology",
+      "dual-use",
+      "national security"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research",
+        "technology"
+      ],
+      "geopolitical": [
+        "dual-use",
+        "national security"
+      ]
+    },
+    "score": 172,
+    "fingerprint": "doi:10.1007/s41125-026-00112-z",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "As open as possible? Comparing Scandinavian approaches to research security",
+    "summary": "Abstract Intensifying geopolitical rivalries have triggered a series of national and international policy initiatives designed to safeguard research security and reduce risks associated with international scientific collaboration. This paper undertakes a comparative analysis of Denmark, Norway, and Sweden, examining the structures, processes, and policy frames that shape their respective approaches to research security and responsible internationalization. Although the Scandinavian countries share cultural, linguistic, and political similarities, as well as advanced research capabilities, their institutionalized strategies for managing the tension between openness and security diverge in significant ways. By examining the policy frames and the interplay between structural and processual factors, the study reveals how these variations produce distinct governance outcomes. Through this analysis, the paper contributes to conceptualizing a typology of national approaches, offering insights into how small, open knowledge economies navigate the dual imperatives of international engagement and strategic protection in an era of geopolitical uncertainty.",
+    "url": "https://doi.org/10.1093/scipol/scag056",
+    "doi": "10.1093/scipol/scag056",
+    "date": "2026-06-08",
+    "year": 2026,
+    "authors": [
+      "Tommy Shih",
+      "Stine Haakonsson",
+      "Kristin Fjæstad",
+      "Hans Jørgen Gåsemyr"
+    ],
+    "source": "Science and Public Policy",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "European research security",
+    "matched_keywords": [
+      "ERA",
+      "research",
+      "science",
+      "research security"
+    ],
+    "matched_categories": {
+      "eu": [
+        "ERA"
+      ],
+      "ri": [
+        "research",
+        "science"
+      ],
+      "geopolitical": [
+        "research security"
+      ]
+    },
+    "score": 168,
+    "fingerprint": "doi:10.1093/scipol/scag056",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Security ties between autocracies: Insights into authoritarian alignment through the case of China",
+    "summary": "Abstract Over the past decade, China has significantly expanded its security cooperation with other authoritarian regimes, yet existing research struggles to capture the informal and ambiguous nature of these relationships. This article develops a new conceptualisation of ‘security ties’ grounded in the logic of authoritarian rule. Security ties are sustained interactions that contribute to regime survival and unfold across five functional domains: diplomatic and military contacts, support for regime security, military capacity building, non-combat operations, and wartime support. To capture variation, this article analyses security ties along three dimensions: depth, durability, and domestic involvement. As a proof of concept, the framework is applied to China’s security ties with ten representatively selected autocracies between 2019 and 2024. The analysis reveals that China’s ties to Russia are by far the deepest, most durable, and institutionalised. Ties to other autocracies are more selective and uneven. Military capacity building emerges as a central but varied pillar, while cooperation aimed at regime security and wartime support remains limited to a narrow set of partners. The article advances debates on authoritarian alignment by conceptualising it as a differentiated web of security ties rather than a cohesive alliance, and it offers a framework for systematically analysing autocratic security cooperation.",
+    "url": "https://doi.org/10.1017/eis.2026.10053",
+    "doi": "10.1017/eis.2026.10053",
+    "date": "2026-03-02",
+    "year": 2026,
+    "authors": [
+      "Sabine Mokry"
+    ],
+    "source": "European Journal of International Security",
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "23",
+    "query": "EU research China technology security",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "research",
+      "national security",
+      "China",
+      "Russia"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "national security",
+        "China",
+        "Russia"
+      ]
+    },
+    "score": 167,
+    "fingerprint": "doi:10.1017/eis.2026.10053",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "The new frontier of research competition: perspectives on national AI4S strategies",
+    "summary": "Abstract Artificial Intelligence for Science (AI4S) has rapidly emerged as a central arena of global technological competition, with major economies introducing national-level strategies aimed at transforming scientific research paradigms. Across the United States, China, the European Union, the United Kingdom, and Japan, AI4S is widely framed as a strategic instrument for overcoming structural development bottlenecks, accelerating knowledge production, and strengthening national competitiveness. Despite this shared ambition, substantial differences exist in how these countries conceptualize, prioritize, and operationalize AI4S. This perspective offers a systematic comparative analysis of national AI4S strategies, focusing on strategic objectives, implementation pathways, and resource allocation. By identifying convergences and divergences across policy approaches, the analysis highlights emerging models of AI-enabled scientific transformation and their broader implications for science governance. The findings aim to inform future policy design and support evidence-based decision-making in the evolving landscape of AI-driven research systems.",
+    "url": "https://doi.org/10.1093/scipol/scag041",
+    "doi": "10.1093/scipol/scag041",
+    "date": "2026-05-13",
+    "year": 2026,
+    "authors": [
+      "Yi Ji",
+      "Xueyan Zhu"
+    ],
+    "source": "Science and Public Policy",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "European research security",
+    "matched_keywords": [
+      "European Union",
+      "Europe",
+      "European",
+      "research",
+      "science",
+      "China",
+      "United States",
+      "competitiveness"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research",
+        "science"
+      ],
+      "geopolitical": [
+        "China",
+        "United States"
+      ]
+    },
+    "score": 166,
+    "fingerprint": "doi:10.1093/scipol/scag041",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
     }
   },
   {
@@ -212,6 +756,55 @@
   },
   {
     "type": "peer_reviewed",
+    "title": "Learning by exporting: The impact of the China–Europe Railway Express on city-level innovation in China",
+    "summary": "",
+    "url": "https://doi.org/10.1016/j.tra.2026.104956",
+    "doi": "10.1016/j.tra.2026.104956",
+    "date": "2026-05-01",
+    "year": 2026,
+    "authors": [
+      "Peiming He",
+      "Yuandong Gao"
+    ],
+    "source": "Transportation Research Part A: Policy and Practice",
+    "volume": "207",
+    "issue": null,
+    "first_page": "104956",
+    "last_page": null,
+    "query": "European innovation gap China United States",
+    "matched_keywords": [
+      "Europe",
+      "research",
+      "innovation",
+      "China"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe"
+      ],
+      "ri": [
+        "research",
+        "innovation"
+      ],
+      "geopolitical": [
+        "China"
+      ]
+    },
+    "score": 159,
+    "fingerprint": "doi:10.1016/j.tra.2026.104956",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "Reaching the Summit or a Plateau? The <scp>EU</scp> –New Zealand Relationship in the Indo‐Pacific",
     "summary": "ABSTRACT This article examines New Zealand's perceptions of the European Union's Indo‐Pacific Strategy through interviews with government officials and foreign policy influencers. Despite viewing the EU positively as a like‐minded partner committed to the rule‐based international order, New Zealand respondents demonstrated limited understanding of the EU's Indo‐Pacific strategy. Ocean governance and green transition emerged as priority cooperation areas, while security and defence received little recognition. The research reveals outdated perceptions of the EU and highlights the need for better communication of EU strategic intentions. Three policy recommendations emerge: leveraging bilateral relationships, improving strategic communication and harnessing EU influence amid current geopolitical uncertainty.",
     "url": "https://doi.org/10.1111/1758-5899.70160",
@@ -264,6 +857,355 @@
       "journal_group": "europe-geopolitics",
       "report_group": "security-strategy",
       "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Bridging the divide? Realizing urban-rural integrated development in the artificial intelligence era: Evidence from China",
+    "summary": "",
+    "url": "https://doi.org/10.1016/j.techsoc.2026.103227",
+    "doi": "10.1016/j.techsoc.2026.103227",
+    "date": "2026-04-01",
+    "year": 2026,
+    "authors": [
+      "Shuyi Wang",
+      "Hong Yao",
+      "Zijun Mao"
+    ],
+    "source": "Technology in Society",
+    "volume": "85",
+    "issue": null,
+    "first_page": "103227",
+    "last_page": null,
+    "query": "EU research China technology security",
+    "matched_keywords": [
+      "ERA",
+      "technology",
+      "China",
+      "artificial intelligence"
+    ],
+    "matched_categories": {
+      "eu": [
+        "ERA"
+      ],
+      "ri": [
+        "technology"
+      ],
+      "geopolitical": [
+        "China"
+      ]
+    },
+    "score": 157,
+    "fingerprint": "doi:10.1016/j.techsoc.2026.103227",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Reforming Public Administration and Territorial Governance in Ukraine: Strategic Priorities and EU Alignment",
+    "summary": "The article aims to determine the development priorities of the public administration and territorial governance sector in Ukraine in the context of European integration and the EU enlargement process. The study identifies the main transformation challenges of the public administration sector; analyzes its institutional capacity and policy planning tools; and evaluates the potential for alignment with EU standards and priorities outlined in the Ukraine Facility Plan, the EU’s Negotiation Framework (Cluster 1 - Fundamentals), and the Public Administration Reform Roadmap approved by the Cabinet of Ministers of Ukraine on May 14, 2025. The research uses a combination of content analysis, document analysis, and SWOT analysis. Quantitative data were obtained from the Decentralization Reform portal, and the SWOT analysis was applied to assess institutional strengths, weaknesses, opportunities, and threats affecting public administration reform at the territorial level. The analysis shows that Ukraine’s public administration sector demonstrates increasing institutional maturity but still lacks harmonized regional policy tools and sustainable inter-municipal cooperation mechanisms. The study identifies key development levers within the Ukraine Facility and recommends targeted administrative capacity building, policy coherence mechanisms, and inclusive governance models. The conclusions stress the need for systematic reforms that reflect both Ukraine’s internal institutional dynamics and external integration commitments. The study confirms that strengthening local public administration is critical for Ukraine’s European integration trajectory and supports EU accession through decentralized, transparent, and accountable governance mechanisms.",
+    "url": "https://doi.org/10.5755/j01.ppaa.25.1.41517",
+    "doi": "10.5755/j01.ppaa.25.1.41517",
+    "date": "2026-03-24",
+    "year": 2026,
+    "authors": [
+      "Yurii Y. Kyrylov",
+      "Nataliia O. Cherevko",
+      "Liudmyla O. Sımontseva",
+      "Ganna V. Ortina",
+      "Yurii M. Melnyk"
+    ],
+    "source": "Public Policy and Administration",
+    "volume": "25",
+    "issue": "1",
+    "first_page": "43",
+    "last_page": "58",
+    "query": "EU framework programme technology sovereignty",
+    "matched_keywords": [
+      "EU",
+      "Europe",
+      "European",
+      "research",
+      "Ukraine"
+    ],
+    "matched_categories": {
+      "eu": [
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "Ukraine"
+      ]
+    },
+    "score": 157,
+    "fingerprint": "doi:10.5755/j01.ppaa.25.1.41517",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Deepfake Technology in Social Engineering: Threats, Detection and Defence Strategies",
+    "summary": "Big developments in the field of Artificial Intelligence (AI) have significantly improved deepfake technology, allowing individuals to create realistic synthetic media. As a result, deepfakes have become a very effective tool for social engineers by allowing them to accurately impersonate colleagues and authority figures to gain the trust of individuals and manipulate them. High-profile cases such as the Arup scam and the UAE fraud case highlight how attackers are leveraging these techniques in real-world scenarios and the devastating financial consequences they bring. In response, several technical detection tools have been developed, many of which rely on deep learning techniques. However, these should not be used in isolation. An effective defence strategy requires organisations to supplement these technological tools with other strategies, such as employee training, awareness campaigns and secure security policies. This creates layers of security, capable of mitigating risks posed by deepfake social engineering.",
+    "url": "https://doi.org/10.34190/eccws.25.1.4838",
+    "doi": "10.34190/eccws.25.1.4838",
+    "date": "2026-06-15",
+    "year": 2026,
+    "authors": [
+      "Tanaka Makamure",
+      "Daniel Ogwok"
+    ],
+    "source": "European Conference on Cyber Warfare and Security",
+    "volume": "25",
+    "issue": "1",
+    "first_page": "469",
+    "last_page": "476",
+    "query": "Europe technology de-risking",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "technology",
+      "defence"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "technology"
+      ],
+      "geopolitical": [
+        "defence"
+      ]
+    },
+    "score": 156,
+    "fingerprint": "doi:10.34190/eccws.25.1.4838",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Mapping the geographical imbalance in space syntax research",
+    "summary": "Imagine a scientific world in which researchers everywhere have equal opportunities to publish and gain recognition. Far from being an exception, space syntax research is shaped by structural inequalities that privilege Northern institutions and epistemologies. While existing bibliometric reviews broadly map the field, they overlook how selective indexing structures global visibility. Drawing on 2,323 Web of Science–indexed space syntax articles, this review examines publication growth, citation impact, and journal landscapes across regions. The findings show that although research activity is expanding globally, particularly in Asia, citation impact remains concentrated in the United States and the United Kingdom. Elite Northern journals dominate the field, while Southern scholarship largely circulates in less visible venues, reinforcing enduring geographical imbalances in knowledge production.",
+    "url": "https://doi.org/10.18778/1231-1952.33.1.03",
+    "doi": "10.18778/1231-1952.33.1.03",
+    "date": "2026-04-30",
+    "year": 2026,
+    "authors": [
+      "Abdelbaseer A. Mohamed"
+    ],
+    "source": "European Spatial Research and Policy",
+    "volume": "33",
+    "issue": "1",
+    "first_page": "191",
+    "last_page": "208",
+    "query": "European research security",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "research",
+      "science",
+      "United States"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research",
+        "science"
+      ],
+      "geopolitical": [
+        "United States"
+      ]
+    },
+    "score": 154,
+    "fingerprint": "doi:10.18778/1231-1952.33.1.03",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "PROFESSIONAL COMPETENCIES OF MANAGERS IN THE SPORTS AND RECREATION INDUSTRY IN THE UNITED STATES OF AMERICA AND EASTERN EUROPE",
+    "summary": "The article examines the current problems of finding and forming professional competencies for managers of the sports and recreation industry using the experience of the United States of America and Eastern Europe as an example. The purpose of the article is to study the model characteristics of the functioning of the sports and recreation industry in the United States of America and Eastern Europe and to substantiate the complex of professional competencies for managers of this sphere. To achieve the set tasks, a set of general scientific research methods was used, in particular, systemic, competency-based, comparative and interdisciplinary approaches to the study of the sports and recreation industry. The following methods were used in the research process: analysis and synthesis of scientific literature, regulatory and program documents; comparative analysis to identify the features of the functioning of the sports and recreation industry in the United States of America and Eastern European countries; generalization and systematization of scientific data to substantiate the complex of professional competencies of managers; theoretical modeling method to determine the model characteristics of the functioning of the sports and recreation industry in the studied regions. The article proposes model characteristics of the functioning of the sports and recreation industry in the United States of America and Eastern Europe and substantiates the most important competencies for managers of the sports and recreation industry.",
+    "url": "https://doi.org/10.70651/3041-2498/2026.4.17",
+    "doi": "10.70651/3041-2498/2026.4.17",
+    "date": "2026-04-21",
+    "year": 2026,
+    "authors": [
+      "Hanna Tolchieva"
+    ],
+    "source": "Public Management and Policy",
+    "volume": null,
+    "issue": "4(20)",
+    "first_page": null,
+    "last_page": null,
+    "query": "Horizon Europe competitiveness geopolitics",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "research",
+      "United States"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "United States"
+      ]
+    },
+    "score": 152,
+    "fingerprint": "doi:10.70651/3041-2498/2026.4.17",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Cognitive warfare: Some sceptical observations from general strategic theory and affective science",
+    "summary": "Abstract The article probes the analytical utility of the increasingly popular concept of ‘cognitive warfare’. It proceeds by reflecting writings associated with the concept’s mainstream meaning against selected insights from general strategic theory and affective science and finds cognitive warfare problematic in multiple aspects. From the perspective of general strategic theory, cognitive warfare misrepresents the nature of the challenge at hand, blurs the distinction between core aspects of strategic effort, and draws on questionable rather than sound strategic thought. From an affective science perspective, it relies on an increasingly outdated paradigm for explaining the human mind, provides little insight into how cognition shapes behaviour, and overlooks the beneficial roles of emotions in maintaining social cohesion. Integrating these perspectives, the article argues that information aggression is better understood as attempted subversion centred on specific emotions. The presented argument allows practitioners to better understand the nature of the challenges they face and to develop appropriate remedies, and academics to study the subject in a more focused manner.",
+    "url": "https://doi.org/10.1017/eis.2026.10057",
+    "doi": "10.1017/eis.2026.10057",
+    "date": "2026-03-27",
+    "year": 2026,
+    "authors": [
+      "Samuel Zilincik"
+    ],
+    "source": "European Journal of International Security",
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "22",
+    "query": "Horizon Europe association strategic interests",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "science",
+      "academic",
+      "national security"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "science",
+        "academic"
+      ],
+      "geopolitical": [
+        "national security"
+      ]
+    },
+    "score": 152,
+    "fingerprint": "doi:10.1017/eis.2026.10057",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Unpicking the martial theory of mind: Time, space, and technology in the conduct of war",
+    "summary": "Abstract This article argues that concepts of time are central to how armed forces imagine and pursue victory, functioning as both an ordering principle and an instrumental resource. Here, the article advances the concept of a ‘martial theory of mind’ to explain how armed forces seek to instrumentally manipulate the ordering properties of time to produce spatial and technological advantages, rooted in socio-technical imaginaries of both their own and their adversaries’ behaviour. However, technological change has frequently altered the relationship between time and space in warfare, necessitating constant alteration to prevailing military doctrines as armies update their ‘martial theory of mind’. The article then applies this theoretical lens to analyse the potential collapse of contemporary doctrines of manoeuvre warfare, highlighting how technological diffusion has undermined the relationship between time and space in the martial theory of mind underpinning their operation. It concludes by articulating a series of potential avenues by which Western armies might seek to address this growing imbalance.",
+    "url": "https://doi.org/10.1017/eis.2026.10072",
+    "doi": "10.1017/eis.2026.10072",
+    "date": "2026-06-25",
+    "year": 2026,
+    "authors": [
+      "Alex Neads",
+      "David J. Galbreath"
+    ],
+    "source": "European Journal of International Security",
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "19",
+    "query": "Europe technology de-risking",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "technology",
+      "national security"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "technology"
+      ],
+      "geopolitical": [
+        "national security"
+      ]
+    },
+    "score": 151,
+    "fingerprint": "doi:10.1017/eis.2026.10072",
+    "discovered_utc": "2026-08-26T20:20:33+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
     }
   }
 ]
