@@ -1,4 +1,4 @@
-name: Scan EU R&I geopolitics
+name: Scan EU R&I geopolitics (5-20 min)
 
 on:
   workflow_dispatch:
@@ -17,7 +17,7 @@ concurrency:
 jobs:
   scan-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
 
     steps:
       - name: Check out repository
@@ -41,25 +41,25 @@ jobs:
             exit 1
           fi
 
-      - name: Run scanner
+      - name: Run scanner (5-20 minutes)
         env:
           CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
-        run: python scanner.py --max-seconds 1200
+        run: python scanner.py --min-seconds 300 --max-seconds 1200 --round-interval 75
 
-      - name: Build encrypted page
+      - name: Build full page and simple summary
         env:
           SCANNER_PASSWORD: ${{ secrets.SCANNER_PASSWORD }}
         run: python build_page.py
 
-      - name: Persist scanner state and findings
+      - name: Persist scanner state and pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/findings.json data/seen.json data/state.json docs/index.html docs/.nojekyll
+          git add data/findings.json data/seen.json data/state.json docs/index.html docs/summary.html docs/.nojekyll
           if git diff --cached --quiet; then
             echo "No generated changes to commit."
           else
-            git commit -m "Update geopolitics scan"
+            git commit -m "Update geopolitics scan and simple summary"
             git push
           fi
 
