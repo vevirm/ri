@@ -1,23 +1,23 @@
 {
-  "run_index": 1,
-  "last_scan_utc": "2026-08-26T14:00:59+00:00",
+  "run_index": 2,
+  "last_scan_utc": "2026-08-26T14:03:27+00:00",
   "last_rotation": {
     "keyword_batches": [
-      "research-security",
-      "funding-competitiveness"
+      "economic-security",
+      "science-diplomacy-cooperation"
     ],
-    "journal_group": "ri-policy-core",
-    "report_group": "europe-thinktanks",
-    "news_group": "international-news",
+    "journal_group": "europe-geopolitics",
+    "report_group": "security-strategy",
+    "news_group": "eu-policy-news",
     "queries": [
-      "European research security",
-      "EU innovation foreign interference",
-      "Horizon Europe competitiveness geopolitics",
-      "EU research funding strategic autonomy"
+      "EU research economic security",
+      "European innovation strategic autonomy",
+      "EU science diplomacy research cooperation",
+      "European research international cooperation geopolitics"
     ]
   },
   "new_counts": {
-    "peer_reviewed": 1,
+    "peer_reviewed": 4,
     "report": 0,
     "news": 0
   }
