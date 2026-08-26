@@ -1,170 +1,117 @@
 # EU R&I Geopolitics Scanner
 
-A deliberately small GitHub Actions scanner for **English-language EU research & innovation in a geopolitical context**. It scans the previous **183 days (~6 months)**, rejects weakly related items, deduplicates findings, ranks peer-reviewed work and institutional reports above news, and publishes a plain white password-protected GitHub Pages page with **APA 7-style citations**.
+A small GitHub Actions scanner for English-language material about **EU research and innovation in a geopolitical or security context**.
 
-## What it does
+## The simple version
 
-- Runs automatically every **6 hours** (`17 */6 * * *`, UTC-based GitHub schedule).
-- Gives the scanner a **hard 20-minute budget**; page rebuild/publish runs afterward.
-- Searches two rotating issue batches per run.
-- Rotates journal groups, institutional-report sources, and news publishers independently.
-- Requires each finding to match all three relevance categories:
-  1. **EU/Europe**
-  2. **R&I / research / science / technology**
-  3. **Geopolitical / security / strategic issue**
-- Requires **at least two distinct keyword concepts** in the item metadata.
-- Keeps only English-language material from the last six months.
-- Deduplicates by DOI first, then normalized title, then URL fingerprint.
-- Stores seen fingerprints so the same item is not re-added on later scans.
-- Ranks source types strongly: **peer-reviewed > report > news**.
-- Publishes `docs/index.html` as an encrypted static page.
+- A scan runs for **at least about 5 minutes and no more than 20 minutes**.
+- During that time it runs several different search rounds instead of doing one quick search and stopping.
+- If useful new items keep appearing after 5 minutes, it can continue toward the 20-minute limit.
+- If two search rounds in a row find nothing new after the 5-minute minimum, it stops.
+- It scans the latest **six months**.
+- It gives more weight to **academic articles and reports** than to news.
+- It publishes two password-protected pages:
+  - `index.html` — the full source list with citations.
+  - `summary.html` — a short, plain-language summary written for a reader around age 15.
 
-## Ranking emphasis
+For the repository `vevirm/ri`, the pages are normally:
 
-Base score before keyword/relevance bonuses:
+- Full list: `https://vevirm.github.io/ri/`
+- Simple summary: `https://vevirm.github.io/ri/summary.html`
 
-| Type | Base weight | Max new per scan |
-|---|---:|---:|
-| Peer-reviewed journal article | 100 | 18 |
-| Institutional / think-tank report | 82 | 12 |
-| News | 34 | 6 |
+## What the simple summary does
 
-This deliberately makes news a minority signal rather than the core product.
+The summary page does not call an AI service and needs no extra API key. It groups the findings into a few broad themes and explains them in basic language, for example:
 
-## Crucial issue keyword rotation
+- keeping research safe;
+- protecting Europe's economy;
+- important technologies such as AI, chips and quantum;
+- research money and competition;
+- working with other countries;
+- China, the United States, Russia and Ukraine.
 
-The full editable list is in `config.json`. The six rotating batches are:
+It also shows:
 
-1. **Research security** — research security, knowledge security, foreign interference, technology leakage, trusted research, due diligence, international research cooperation, Horizon Europe.
-2. **Economic security** — economic security, strategic autonomy, technological sovereignty, strategic dependency/dependencies, de-risking, export controls, investment screening.
-3. **Critical technology / dual-use** — critical technologies, dual-use, semiconductors, AI, quantum, biotechnology, space technology, cybersecurity, technology security.
-4. **Funding / competitiveness** — Horizon Europe, framework programme, FP10, European Competitiveness Fund, R&D/R&I funding, innovation gap, competitiveness, China, United States.
-5. **Science diplomacy / cooperation** — science diplomacy, international research cooperation, Horizon Europe association, academic freedom, global approach, strategic interests, open and secure cooperation.
-6. **China / US / Russia / Ukraine** — China, Chinese, United States, US/U.S., Russia, Russian, Ukraine, sanctions, transatlantic, Taiwan, Indo-Pacific, technology competition.
+- how many findings are academic articles, reports and news;
+- which countries appear often;
+- how long the latest scan ran;
+- how many search rounds were completed;
+- how many new items were added;
+- a few important example sources.
 
-Each batch also contains compound search phrases such as `European research security` or `EU research China technology security`; the result must still pass the strict multi-category validation after retrieval.
+The summary is a quick guide. The full source page is still the place to check the evidence.
 
-Two batches are scanned each run. With six batches and a six-hour cadence, every issue batch is revisited about every **18 hours**.
+## How the 5–20 minute scan works
 
-## Rotating scholarly journals
+The workflow runs:
 
-### Group A — R&I policy core
-- Research Policy
-- Science and Public Policy
-- Research Evaluation
-- Industry and Innovation
-- Technological Forecasting and Social Change
+```bash
+python scanner.py --min-seconds 300 --max-seconds 1200 --round-interval 75
+```
 
-### Group B — Europe and geopolitics
-- Journal of European Public Policy
-- Journal of Common Market Studies
-- European Security
-- International Affairs
-- Global Policy
+That means:
 
-### Group C — science, technology and security
-- Minerva
-- Science, Technology, & Human Values
-- Technology in Society
-- European Journal of International Security
-- Defence and Peace Economics
+- `300` seconds = 5-minute minimum;
+- `1200` seconds = 20-minute hard maximum;
+- a new varied search round is started roughly every 75 seconds.
 
-Scholarly metadata is retrieved from **Crossref** and constrained to `journal-article` results plus the rotating journal allow-list. No scholarly API key is required.
+Search rounds rotate issue keywords, journals, institutional-report sources and news sources. Later rounds also switch to different search phrases from the same keyword batches.
 
-## Rotating report / institution sources
+The 20-minute value is a maximum, not a promise that every run lasts exactly 20 minutes. A normal run should now stay active for at least about 5 minutes.
 
-### Group A — EU / OECD
-- European Commission — Research and Innovation
-- European Commission
-- Joint Research Centre
-- European Parliament Think Tank
-- OECD
+## Relevance rules
 
-### Group B — European policy institutes
-- Bruegel
-- MERICS
-- ECFR
-- CEPS
-- EUISS
+A finding must clearly match all three areas:
 
-### Group C — security / strategy
-- NATO
-- SIPRI
-- Chatham House
-- Carnegie Europe
-- European University Institute
+1. **EU / Europe**
+2. **research, innovation, science or technology**
+3. **geopolitics, security or a strategic issue**
 
-## Rotating news sources
+It must also match at least two distinct keyword concepts. The scanner keeps English-language material from the last 183 days and removes duplicates.
 
-### Group A — EU policy news
-- Science|Business
-- POLITICO Europe
-- Euractiv
-- Reuters
+## Sources
 
-### Group B — research news
-- Nature
-- Science
-- Research Professional News
-- Times Higher Education
+Academic metadata comes from Crossref. Reports and news are discovered through English Google News RSS searches restricted to selected domains.
 
-### Group C — international news
-- Reuters
-- Financial Times
-- BBC
-- Deutsche Welle
-
-Report and news discovery uses English Google News RSS site-restricted searches. This keeps the project keyless and simple, but those feeds are an external dependency and can change.
+The source rotations and keywords are editable in `config.json`.
 
 ## Password protection
 
-The page does **not** commit the password or plaintext findings. `build_page.py` encrypts the findings payload with:
+Create a GitHub Actions repository secret named:
 
-- PBKDF2-HMAC-SHA256
-- 250,000 iterations
-- random salt
-- AES-256-GCM
+`SCANNER_PASSWORD`
 
-The browser asks for the password and decrypts locally.
+Both pages use the same password. Findings are encrypted into the static pages with PBKDF2-HMAC-SHA256 and AES-256-GCM, then decrypted locally in the browser after the password is entered.
 
-Important: GitHub Pages is static hosting, so this is **encrypted client-side access**, not true server-side authentication. It prevents casual source viewing and keeps the findings out of the HTML plaintext, but a determined attacker can still attempt offline password guessing. For high-security access control, put the site behind a real authentication layer such as an access proxy.
+GitHub Pages is still static hosting. This is client-side encrypted access, not server-side user authentication.
 
 ## GitHub setup
 
-1. Create a GitHub repository and copy these files into it.
-2. In **Settings → Secrets and variables → Actions → New repository secret**, create a secret named `SCANNER_PASSWORD` and set it to the password you chose for this scanner.
-3. Optional: create a repository variable named `CROSSREF_MAILTO` with your email address. Crossref works without it, but supplying contact information is polite API usage.
-4. In **Settings → Pages → Build and deployment → Source**, choose **GitHub Actions**.
-5. Open **Actions → Scan EU R&I geopolitics → Run workflow** once to seed/update the page immediately. Scheduled runs then occur every six hours.
-
-The initial `docs/index.html` in this package is already encrypted with the password you specified when requesting the scanner. The Action still needs `SCANNER_PASSWORD` so it can encrypt each future update with the same password.
-
-## Local test
-
-```bash
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\\Scripts\\activate
-pip install -r requirements.txt
-python scanner.py --max-seconds 1200
-SCANNER_PASSWORD='your-password' python build_page.py
-python -m http.server 8000 -d docs
-```
-
-Then open `http://localhost:8000`.
+1. Put the repository files on GitHub.
+2. Go to **Settings → Secrets and variables → Actions** and create `SCANNER_PASSWORD`.
+3. Optional: create the repository variable `CROSSREF_MAILTO` with your email address.
+4. Go to **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**.
+5. Go to **Actions → Scan EU R&I geopolitics (5-20 min) → Run workflow**.
+6. Wait for `scan-and-build` and then `deploy` to turn green.
 
 ## Files
 
-- `config.json` — keywords, issue batches, source rotations, quotas.
-- `scanner.py` — retrieval, relevance gate, scoring, dedupe, six-month pruning.
-- `build_page.py` — encrypted white-background APA-style page generator.
-- `data/findings.json` — current six-month findings store.
-- `data/seen.json` — persistent dedupe fingerprints.
-- `data/state.json` — rotation/run state.
-- `.github/workflows/scan.yml` — six-hour scan + GitHub Pages deployment.
-- `docs/index.html` — generated encrypted page.
+- `config.json` — keywords, search phrases, source rotations and quotas.
+- `scanner.py` — repeated 5–20 minute scanning, relevance scoring and deduplication.
+- `build_page.py` — builds the encrypted full page and simple summary page.
+- `data/findings.json` — current six-month findings.
+- `data/seen.json` — deduplication fingerprints.
+- `data/state.json` — last scan time, duration, rounds and rotation information.
+- `.github/workflows/scan.yml` — scheduled/manual scan and Pages deployment.
+- `docs/index.html` — generated full findings page.
+- `docs/summary.html` — generated simple summary page.
 
-## Notes
+## Schedule
 
-- GitHub scheduled workflows can run a little later than the exact cron minute.
-- APA output is generated from available metadata; incomplete publisher metadata can produce an abbreviated citation.
-- The scanner intentionally favors precision over recall. If an item does not clearly combine EU/Europe, R&I, and a geopolitical/security issue, it is excluded.
+The Action is scheduled every six hours:
+
+```text
+17 */6 * * *
+```
+
+GitHub scheduled runs can start a little later than the exact cron time.

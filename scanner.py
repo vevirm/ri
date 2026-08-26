@@ -375,32 +375,19 @@ def select_with_quotas(items: list[dict[str, Any]], config: dict[str, Any]) -> l
     return chosen
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Scan English EU R&I geopolitical research, reports and news.")
-    parser.add_argument("--max-seconds", type=int, default=1200, help="Hard scan budget; defaults to 20 minutes.")
-    args = parser.parse_args()
-
-    deadline = Deadline(time.monotonic(), max(30, args.max_seconds))
-    config = load_json(CONFIG_PATH, {})
-    state = load_json(STATE_PATH, {"run_index": 0})
-    findings = load_json(FINDINGS_PATH, [])
-    seen = set(load_json(SEEN_PATH, []))
-
-    now = datetime.now(timezone.utc)
-    cutoff = now - timedelta(days=int(config.get("window_days", 183)))
-    run_index = int(state.get("run_index", 0))
-    rotation = choose_rotation(config, run_index)
-
-    active_queries, active_keywords = [], []
+def build_round_jobs(config: dict[str, Any], rotation: dict[str, Any], round_number: int) -> tuple[list[tuple[str, tuple[Any, ...]]], list[str], list[str]]:
+    """Build one varied search round without exploding the number of network requests."""
+    active_queries: list[str] = []
+    active_keywords: list[str] = []
+    # Each batch has four queries. Alternate between the first and second pair on later rounds.
+    query_offset = 0 if ((round_number // max(1, len(config.get("keyword_batches", [])))) % 2 == 0) else 2
     for batch in rotation["keyword_batches"]:
-        active_queries.extend(batch["queries"][:2])
-        active_keywords.extend(batch["keywords"])
-
-    print("Rotation:")
-    print("  keyword batches:", ", ".join(x["name"] for x in rotation["keyword_batches"]))
-    print("  journal group:", rotation["journal_group"]["name"])
-    print("  report group:", rotation["report_group"]["name"])
-    print("  news group:", rotation["news_group"]["name"])
+        queries = batch.get("queries", [])
+        pair = queries[query_offset:query_offset + 2]
+        if not pair:
+            pair = queries[:2]
+        active_queries.extend(pair)
+        active_keywords.extend(batch.get("keywords", []))
 
     jobs: list[tuple[str, tuple[Any, ...]]] = []
     for query in active_queries:
@@ -410,11 +397,24 @@ def main() -> int:
             jobs.append(("report", (query, src)))
         for src in rotation["news_group"]["sources"][:4]:
             jobs.append(("news", (query, src)))
+    return jobs, active_queries, active_keywords
 
+
+def run_round(
+    config: dict[str, Any],
+    rotation: dict[str, Any],
+    round_number: int,
+    cutoff: datetime,
+    deadline: Deadline,
+    now: datetime,
+) -> tuple[list[dict[str, Any]], list[str], list[str], int]:
+    jobs, active_queries, active_keywords = build_round_jobs(config, rotation, round_number)
     candidates: list[dict[str, Any]] = []
     with cf.ThreadPoolExecutor(max_workers=10) as ex:
         futures = []
         for kind, args2 in jobs:
+            if deadline.expired:
+                break
             if kind == "peer":
                 futures.append(ex.submit(fetch_crossref, args2[0], args2[1], cutoff, deadline))
             else:
@@ -427,24 +427,132 @@ def main() -> int:
             except Exception as e:
                 print(f"[warn] scan task failed: {e}")
 
-    qualified = []
+    qualified: list[dict[str, Any]] = []
     for item in candidates:
         ok, _ = relevance(item, config, active_keywords, now)
         if ok:
             qualified.append(item)
+    return qualified, active_queries, active_keywords, len(candidates)
 
-    qualified = dedupe_candidates(qualified, seen)
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Scan English EU R&I geopolitical research, reports and news.")
+    parser.add_argument("--min-seconds", type=int, default=300, help="Minimum scan window; defaults to 5 minutes.")
+    parser.add_argument("--max-seconds", type=int, default=1200, help="Hard scan budget; defaults to 20 minutes.")
+    parser.add_argument("--round-interval", type=int, default=75, help="Seconds between the starts of search rounds.")
+    args = parser.parse_args()
+
+    max_seconds = max(60, args.max_seconds)
+    min_seconds = max(0, min(args.min_seconds, max_seconds))
+    round_interval = max(10, args.round_interval)
+    deadline = Deadline(time.monotonic(), max_seconds)
+
+    config = load_json(CONFIG_PATH, {})
+    state = load_json(STATE_PATH, {"run_index": 0})
+    findings = load_json(FINDINGS_PATH, [])
+    seen = set(load_json(SEEN_PATH, []))
+
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=int(config.get("window_days", 183)))
+    run_index = int(state.get("run_index", 0))
+
+    print(f"Scan window: {min_seconds // 60} to {max_seconds // 60} minutes")
+    print("The scanner repeats varied search rounds during that window.")
+
+    # Keep the best copy of every new qualifying item found across all rounds.
+    qualified_by_fp: dict[str, dict[str, Any]] = {}
+    round_log: list[dict[str, Any]] = []
+    total_candidates = 0
+    stale_rounds = 0
+    round_number = 0
+    next_round_at = 0.0
+    last_rotation: dict[str, Any] | None = None
+    last_queries: list[str] = []
+
+    while not deadline.expired:
+        elapsed = time.monotonic() - deadline.started
+        if elapsed < next_round_at:
+            sleep_for = min(2.0, next_round_at - elapsed, deadline.remaining)
+            if sleep_for > 0:
+                time.sleep(sleep_for)
+            continue
+
+        rotation = choose_rotation(config, run_index + round_number)
+        last_rotation = rotation
+        started_round = time.monotonic()
+        print(f"\nSearch round {round_number + 1} at {int(elapsed)}s:")
+        print("  keyword batches:", ", ".join(x["name"] for x in rotation["keyword_batches"]))
+        print("  journal group:", rotation["journal_group"]["name"])
+        print("  report group:", rotation["report_group"]["name"])
+        print("  news group:", rotation["news_group"]["name"])
+
+        qualified, active_queries, _active_keywords, candidate_count = run_round(
+            config, rotation, round_number, cutoff, deadline, now
+        )
+        last_queries = active_queries
+        total_candidates += candidate_count
+
+        added_this_round = 0
+        for item in qualified:
+            fp = fingerprint(item)
+            if fp in seen:
+                continue
+            existing = qualified_by_fp.get(fp)
+            if existing is None or item.get("score", 0) > existing.get("score", 0):
+                item["fingerprint"] = fp
+                qualified_by_fp[fp] = item
+                if existing is None:
+                    added_this_round += 1
+
+        if added_this_round:
+            stale_rounds = 0
+        else:
+            stale_rounds += 1
+
+        round_duration = time.monotonic() - started_round
+        round_log.append({
+            "round": round_number + 1,
+            "rotation": {
+                "keyword_batches": [x["name"] for x in rotation["keyword_batches"]],
+                "journal_group": rotation["journal_group"]["name"],
+                "report_group": rotation["report_group"]["name"],
+                "news_group": rotation["news_group"]["name"],
+            },
+            "queries": active_queries,
+            "candidates": candidate_count,
+            "new_qualified": added_this_round,
+            "duration_seconds": round(round_duration, 1),
+        })
+        print(f"  candidates: {candidate_count} | new qualifying items: {added_this_round}")
+
+        round_number += 1
+        elapsed = time.monotonic() - deadline.started
+
+        # Never finish before the requested minimum. After five minutes, two consecutive
+        # rounds with nothing new are enough to stop. If useful items keep appearing,
+        # scanning can continue up to the 20-minute hard limit.
+        if elapsed >= min_seconds and stale_rounds >= 2:
+            print("No new qualifying items in two consecutive rounds after the minimum scan time; stopping.")
+            break
+
+        next_round_at = max(elapsed, round_number * round_interval)
+
+    scan_finished = datetime.now(timezone.utc)
+    elapsed_seconds = int(round(time.monotonic() - deadline.started))
+
+    qualified = list(qualified_by_fp.values())
     chosen = select_with_quotas(qualified, config)
 
     for item in chosen:
         seen.add(item["fingerprint"])
-        item["discovered_utc"] = now.isoformat(timespec="seconds")
-        item["rotation"] = {
-            "keywords": [x["name"] for x in rotation["keyword_batches"]],
-            "journal_group": rotation["journal_group"]["name"],
-            "report_group": rotation["report_group"]["name"],
-            "news_group": rotation["news_group"]["name"],
-        }
+        item["discovered_utc"] = scan_finished.isoformat(timespec="seconds")
+        if last_rotation:
+            item["rotation"] = {
+                "keywords": [x["name"] for x in last_rotation["keyword_batches"]],
+                "journal_group": last_rotation["journal_group"]["name"],
+                "report_group": last_rotation["report_group"]["name"],
+                "news_group": last_rotation["news_group"]["name"],
+            }
         findings.append(item)
 
     kept = []
@@ -459,15 +567,19 @@ def main() -> int:
         seen_sorted = seen_sorted[-25000:]
 
     state = {
-        "run_index": run_index + 1,
-        "last_scan_utc": now.isoformat(timespec="seconds"),
+        "run_index": run_index + max(1, round_number),
+        "last_scan_utc": scan_finished.isoformat(timespec="seconds"),
+        "scan_duration_seconds": elapsed_seconds,
+        "scan_window": {"min_seconds": min_seconds, "max_seconds": max_seconds},
+        "rounds_completed": round_number,
         "last_rotation": {
-            "keyword_batches": [x["name"] for x in rotation["keyword_batches"]],
-            "journal_group": rotation["journal_group"]["name"],
-            "report_group": rotation["report_group"]["name"],
-            "news_group": rotation["news_group"]["name"],
-            "queries": active_queries,
+            "keyword_batches": [x["name"] for x in last_rotation["keyword_batches"]] if last_rotation else [],
+            "journal_group": last_rotation["journal_group"]["name"] if last_rotation else None,
+            "report_group": last_rotation["report_group"]["name"] if last_rotation else None,
+            "news_group": last_rotation["news_group"]["name"] if last_rotation else None,
+            "queries": last_queries,
         },
+        "round_log": round_log,
         "new_counts": {
             "peer_reviewed": sum(1 for x in chosen if x["type"] == "peer_reviewed"),
             "report": sum(1 for x in chosen if x["type"] == "report"),
@@ -479,7 +591,8 @@ def main() -> int:
     save_json(SEEN_PATH, seen_sorted)
     save_json(STATE_PATH, state)
 
-    print(f"Candidates: {len(candidates)} | qualified new: {len(qualified)} | added: {len(chosen)} | page total: {len(kept)}")
+    print(f"\nFinished in {elapsed_seconds}s across {round_number} search rounds.")
+    print(f"Candidates: {total_candidates} | qualified new: {len(qualified)} | added: {len(chosen)} | page total: {len(kept)}")
     print("New counts:", state["new_counts"])
     return 0
 
