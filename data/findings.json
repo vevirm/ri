@@ -1,1 +1,269 @@
-[]
+[
+  {
+    "type": "peer_reviewed",
+    "title": "Governing knowledge, shaping Europe: research security in the EU’s geopolitical turn",
+    "summary": "",
+    "url": "https://doi.org/10.1080/09662839.2026.2680646",
+    "doi": "10.1080/09662839.2026.2680646",
+    "date": "2026-06-12",
+    "year": 2026,
+    "authors": [
+      "Cristina Pinna"
+    ],
+    "source": "European Security",
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "22",
+    "query": "EU research critical technologies",
+    "matched_keywords": [
+      "EU",
+      "Europe",
+      "European",
+      "research",
+      "research security"
+    ],
+    "matched_categories": {
+      "eu": [
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "research security"
+      ]
+    },
+    "score": 181,
+    "fingerprint": "doi:10.1080/09662839.2026.2680646",
+    "discovered_utc": "2026-08-26T14:26:15+00:00",
+    "rotation": {
+      "keywords": [
+        "science-diplomacy-cooperation",
+        "economic-security"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Competing Visions of Democracy in EU Disinformation Governance: Framing the Digital Services Act in the European Parliament",
+    "summary": "Abstract Disinformation has become a contentious issue within the European Union (EU) and in transatlantic relations, raising fundamental questions about how democratic societies should regulate online content. This article investigates how competing democratic visions shape European Parliamentary debates on the Digital Services Act (DSA). Through a framing analysis of plenary debates, it identifies four visions articulated by Members of the European Parliament: Deliberative, Classical Liberal, Pluralist and Populist. Each constructs a distinct threat profile of ‘disinformation’ and advances a corresponding regulatory stance – from support for content moderation to outright rejection of the DSA. Whilst previous research suggests a broad European consensus on disinformation as a democratic threat, this study reveals deep normative divides over its meaning and governance. These findings complicate claims of a simple EU–US divide in digital governance by showing that normative cleavages cut across political systems. By linking parliamentary framings to democratic theory, the article offers a framework for understanding how divergent democratic ideals shape EU regulation.",
+    "url": "https://doi.org/10.1111/jcms.70123",
+    "doi": "10.1111/jcms.70123",
+    "date": "2026-04-28",
+    "year": 2026,
+    "authors": [
+      "Linus Wahlberg",
+      "Sara Wissén"
+    ],
+    "source": "JCMS: Journal of Common Market Studies",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU research economic security",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "research",
+      "US",
+      "transatlantic"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "US",
+        "transatlantic"
+      ]
+    },
+    "score": 177,
+    "fingerprint": "doi:10.1111/jcms.70123",
+    "discovered_utc": "2026-08-26T14:26:15+00:00",
+    "rotation": {
+      "keywords": [
+        "science-diplomacy-cooperation",
+        "economic-security"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Differentiated Convergence: The EU as Norm Facilitator in East Asian Digital Governance",
+    "summary": "Abstract This article examines how the European Union (EU) engages with East Asian democracies – Japan, South Korea, Singapore and Taiwan – in shaping digital governance. Drawing on Héritier and Lehmkuhl's governance modes, it argues that the EU acts less as a rule exporter or orchestrator than as a norm facilitator, enabling forms of regulatory co‐ordination, mutual adjustment and selective co‐governance without formal authority. The analysis combines official documents, elite interviews and systematic comparison across four cases to show how the EU's digital engagement in East Asia has shifted towards more hybrid and network‐based governance arrangements. These arrangements reflect both EU priorities and the growing agency of East Asian partners, who increasingly contribute to digital norm development, regulatory convergence and institutional innovation. The article contributes to debates on EU external governance by showing how digital co‐operation in East Asia reveals a recalibrated form of EU actorness, grounded in mutual adaptation, strategic alignment and shared efforts to manage digital transformation in a fracturing and geopolitically contested global order.",
+    "url": "https://doi.org/10.1111/jcms.70137",
+    "doi": "10.1111/jcms.70137",
+    "date": "2026-07-14",
+    "year": 2026,
+    "authors": [
+      "Reinhard Biedermann"
+    ],
+    "source": "JCMS: Journal of Common Market Studies",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU research economic security",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "innovation",
+      "Taiwan"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "innovation"
+      ],
+      "geopolitical": [
+        "Taiwan"
+      ]
+    },
+    "score": 164,
+    "fingerprint": "doi:10.1111/jcms.70137",
+    "discovered_utc": "2026-08-26T14:26:15+00:00",
+    "rotation": {
+      "keywords": [
+        "science-diplomacy-cooperation",
+        "economic-security"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Aligning Transnational due Diligence: The <scp>EU</scp> Deforestation Regulation and Brazil's Fragmented Beef Governance",
+    "summary": "ABSTRACT Transnational due diligence regulations, such as the European Union Regulation on Deforestation‐Free Products (EUDR), are reshaping sustainability governance by transforming voluntary norms into binding global rules. Yet, their effectiveness depends on how well they align with domestic governance systems and on the power asymmetries that structure global value chains (GVCs). Focusing on Brazil's beef sector, a major driver of deforestation, this study develops an analytical framework that integrates GVC governance theory with the emerging literature on due diligence regulation. It conceptualizes alignment as a multidimensional condition encompassing rule compatibility, operational fit, and incentive fit across public, hybrid, and private governance mechanisms. Using qualitative evidence from laws, monitoring systems, and hybrid initiatives, the study evaluates alignment with the EUDR's six obligations. Findings reveal persistent misalignments: Externally, divergent forest definitions exclude much of the Cerrado; internally, fragmented institutions and uneven capacities constrain full‐chain traceability; and geopolitically, Brazil is the largest beef exporter, and its trade orientation toward China limits the EU's leverage. Theoretically, the paper reframes due diligence as a form of transnational governance power, where regulatory authority, market influence, and epistemic legitimacy are negotiated across scales, advancing understanding of how directive rules depend on facilitative domestic architectures to achieve sustainable transformation.",
+    "url": "https://doi.org/10.1111/1758-5899.70181",
+    "doi": "10.1111/1758-5899.70181",
+    "date": "2026-05-22",
+    "year": 2026,
+    "authors": [
+      "John James Loomis",
+      "Khalid Nadvi",
+      "José Antônio Puppim de Oliveira"
+    ],
+    "source": "Global Policy",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU research economic security",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "R&I",
+      "China"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "R&I"
+      ],
+      "geopolitical": [
+        "China"
+      ]
+    },
+    "score": 161,
+    "fingerprint": "doi:10.1111/1758-5899.70181",
+    "discovered_utc": "2026-08-26T14:26:15+00:00",
+    "rotation": {
+      "keywords": [
+        "science-diplomacy-cooperation",
+        "economic-security"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Reaching the Summit or a Plateau? The <scp>EU</scp> –New Zealand Relationship in the Indo‐Pacific",
+    "summary": "ABSTRACT This article examines New Zealand's perceptions of the European Union's Indo‐Pacific Strategy through interviews with government officials and foreign policy influencers. Despite viewing the EU positively as a like‐minded partner committed to the rule‐based international order, New Zealand respondents demonstrated limited understanding of the EU's Indo‐Pacific strategy. Ocean governance and green transition emerged as priority cooperation areas, while security and defence received little recognition. The research reveals outdated perceptions of the EU and highlights the need for better communication of EU strategic intentions. Three policy recommendations emerge: leveraging bilateral relationships, improving strategic communication and harnessing EU influence amid current geopolitical uncertainty.",
+    "url": "https://doi.org/10.1111/1758-5899.70160",
+    "doi": "10.1111/1758-5899.70160",
+    "date": "2026-04-01",
+    "year": 2026,
+    "authors": [
+      "Matthew Castle",
+      "Martin Holland",
+      "Serena Kelly",
+      "Juan Luis Manfredi‐Sánchez",
+      "Nicholas Ross Smith"
+    ],
+    "source": "Global Policy",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU research economic security",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "research",
+      "defence"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "defence"
+      ]
+    },
+    "score": 157,
+    "fingerprint": "doi:10.1111/1758-5899.70160",
+    "discovered_utc": "2026-08-26T14:26:15+00:00",
+    "rotation": {
+      "keywords": [
+        "science-diplomacy-cooperation",
+        "economic-security"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  }
+]
