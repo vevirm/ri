@@ -1,6 +1,6 @@
 {
-  "run_index": 67,
-  "last_scan_utc": "2026-08-30T05:27:08+00:00",
+  "run_index": 72,
+  "last_scan_utc": "2026-08-30T11:57:59+00:00",
   "scan_duration_seconds": 301,
   "scan_window": {
     "min_seconds": 300,
@@ -9,22 +9,43 @@
   "rounds_completed": 5,
   "last_rotation": {
     "keyword_batches": [
-      "research-security",
-      "funding-competitiveness"
+      "china-us-russia-ukraine",
+      "critical-tech-dual-use"
     ],
-    "journal_group": "ri-policy-core",
-    "report_group": "europe-thinktanks",
-    "news_group": "international-news",
+    "journal_group": "science-tech-society",
+    "report_group": "eu-oecd",
+    "news_group": "research-news",
     "queries": [
-      "European research security",
-      "EU innovation foreign interference",
-      "Horizon Europe competitiveness geopolitics",
-      "EU research funding strategic autonomy"
+      "EU research China technology security",
+      "European innovation United States China competition",
+      "EU research critical technologies",
+      "European innovation dual-use"
     ]
   },
   "round_log": [
     {
       "round": 1,
+      "rotation": {
+        "keyword_batches": [
+          "economic-security",
+          "science-diplomacy-cooperation"
+        ],
+        "journal_group": "europe-geopolitics",
+        "report_group": "security-strategy",
+        "news_group": "eu-policy-news"
+      },
+      "queries": [
+        "EU research economic security",
+        "European innovation strategic autonomy",
+        "EU science diplomacy research cooperation",
+        "European research international cooperation geopolitics"
+      ],
+      "candidates": 56,
+      "new_qualified": 0,
+      "duration_seconds": 1.3
+    },
+    {
+      "round": 2,
       "rotation": {
         "keyword_batches": [
           "critical-tech-dual-use",
@@ -40,12 +61,12 @@
         "EU research China technology security",
         "European innovation United States China competition"
       ],
-      "candidates": 62,
+      "candidates": 69,
       "new_qualified": 0,
-      "duration_seconds": 1.5
+      "duration_seconds": 1.4
     },
     {
-      "round": 2,
+      "round": 3,
       "rotation": {
         "keyword_batches": [
           "funding-competitiveness",
@@ -61,12 +82,12 @@
         "European research security",
         "EU innovation foreign interference"
       ],
-      "candidates": 19,
+      "candidates": 35,
       "new_qualified": 0,
       "duration_seconds": 1.2
     },
     {
-      "round": 3,
+      "round": 4,
       "rotation": {
         "keyword_batches": [
           "science-diplomacy-cooperation",
@@ -82,12 +103,12 @@
         "EU research economic security",
         "European innovation strategic autonomy"
       ],
-      "candidates": 48,
+      "candidates": 40,
       "new_qualified": 0,
-      "duration_seconds": 1.0
+      "duration_seconds": 1.1
     },
     {
-      "round": 4,
+      "round": 5,
       "rotation": {
         "keyword_batches": [
           "china-us-russia-ukraine",
@@ -103,30 +124,9 @@
         "EU research critical technologies",
         "European innovation dual-use"
       ],
-      "candidates": 105,
+      "candidates": 93,
       "new_qualified": 0,
       "duration_seconds": 1.3
-    },
-    {
-      "round": 5,
-      "rotation": {
-        "keyword_batches": [
-          "research-security",
-          "funding-competitiveness"
-        ],
-        "journal_group": "ri-policy-core",
-        "report_group": "europe-thinktanks",
-        "news_group": "international-news"
-      },
-      "queries": [
-        "European research security",
-        "EU innovation foreign interference",
-        "Horizon Europe competitiveness geopolitics",
-        "EU research funding strategic autonomy"
-      ],
-      "candidates": 25,
-      "new_qualified": 0,
-      "duration_seconds": 1.1
     }
   ],
   "new_counts": {
