@@ -121,6 +121,68 @@
   },
   {
     "type": "peer_reviewed",
+    "title": "The European Union's navigation of the United States–China rivalry: muddling through, or strategizing?",
+    "summary": "Abstract Amid the reconfiguration of the post-Cold War world order since the mid-2000s, the evolution of the European Union's positioning towards China has been primarily a response to the constraints imposed by the relative decline of US hegemony and episodes of erosion of the transatlantic link, as well as by the growing US–China rivalry. Seeking to elucidate the evolution and implications of the EU's navigation of this rivalry amid China's rise, including in the Indo-Pacific, this article scrutinizes dynamics of strategization at EU and member states levels, including by examining predominant French, German and pre-Brexit UK approaches. It argues that the evolution of the EU's approach embodies a form of strategic pragmatism, conceptualized as a consolidated long-term realist, contingent and compromise approach, aiming to enable strategic coherence in complexity. Taking a strategic perspective by analysing EU strategies, from the first communication on China in 1995 to the 2023 ‘de-risking’ approach, and building on fieldwork research, it demonstrates that for the EU, strategizing pragmatism has amounted to moving from a practice to a praxis of pragmatism. While pointing to its limits, the article ultimately concludes on the relevance of strategic pragmatism as the EU moves forward in a shifting global order.",
+    "url": "https://doi.org/10.1093/ia/iiag030",
+    "doi": "10.1093/ia/iiag030",
+    "date": "2026-05-11",
+    "year": 2026,
+    "authors": [
+      "Brice Didier"
+    ],
+    "source": "International Affairs",
+    "volume": "102",
+    "issue": "3",
+    "first_page": "767",
+    "last_page": "785",
+    "query": "European research international cooperation geopolitics",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "research",
+      "de-risking",
+      "China",
+      "United States",
+      "US",
+      "Indo-Pacific",
+      "transatlantic"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "de-risking",
+        "China",
+        "United States",
+        "US",
+        "Indo-Pacific",
+        "transatlantic"
+      ]
+    },
+    "score": 183,
+    "fingerprint": "doi:10.1093/ia/iiag030",
+    "discovered_utc": "2026-08-31T13:50:46+00:00",
+    "rotation": {
+      "keywords": [
+        "economic-security",
+        "science-diplomacy-cooperation"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "Signalling and Balancing in the Conflict in Ukraine from 2014 to 2016: Ukrainian Actors, Russia and the European Union",
     "summary": "This paper analyses the conflictual and cooperative signals of two domestic actors – the Ukrainian government and the Ukrainian separatists – and two international actors – the European Union and the Russian Federation – during the first three years of the conflict in Ukraine. Previous studies largely treated the actions of domestic actors as a dependent variable and the actions of international actors as an independent variable. Our results demonstrate that the European Union and the Russian Federation, far from being independent players, assume the role of an ‘error correction mechanism’ by counterbalancing and counteracting the unbalanced and non-reciprocal interactions of the Ukrainian government and the Ukrainian separatists, thereby transforming an otherwise asymmetric conflict into a symmetric one. The paper discusses liberal institutionalist, social constructivist and offensive realist explanations for the observed behaviour and demonstrates why the offensive realist explanation fares best in light of Russia’s massive escalation in 2022.",
     "url": "https://doi.org/10.51870/ijbj9586",
@@ -325,6 +387,62 @@
       "keywords": [
         "science-diplomacy-cooperation",
         "economic-security"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
+    "title": "Defending EU Democracy and Sovereignty from the New Geopolitics of Technology",
+    "summary": "This article argues that technology is a central dimension of international power, reshaping geopolitics through data, standards, platforms, and supply chains, while US–China rivalry drives securitization, selective decoupling, and technological spheres of influence, and private firms provide critical security infrastructures. As the US leverages the EU’s technological dependencies to pressure regulatory change and influence its domestic politics, the European Union faces an existential challenge. Regulatory leadership alone, the article concludes, is insufficient; capabilities to reduce dependencies, safeguard democracy, and strengthen technological sovereignty are also required.",
+    "url": "https://doi.org/10.54827/issn2764-7897.cebri2025.16.02.11.155-173.en",
+    "doi": "10.54827/issn2764-7897.cebri2025.16.02.11.155-173.en",
+    "date": "2026-04-06",
+    "year": 2026,
+    "authors": [
+      "José Ignacio Torreblanca"
+    ],
+    "source": "CEBRI-Revista: Brazilian Journal of International Affairs",
+    "volume": null,
+    "issue": "16",
+    "first_page": "155",
+    "last_page": "173",
+    "query": "European research international cooperation geopolitics",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "technology",
+      "technological sovereignty",
+      "China",
+      "US"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "technology"
+      ],
+      "geopolitical": [
+        "technological sovereignty",
+        "China",
+        "US"
+      ]
+    },
+    "score": 175,
+    "fingerprint": "doi:10.54827/issn2764-7897.cebri2025.16.02.11.155-173.en",
+    "discovered_utc": "2026-08-31T13:50:46+00:00",
+    "rotation": {
+      "keywords": [
+        "economic-security",
+        "science-diplomacy-cooperation"
       ],
       "journal_group": "europe-geopolitics",
       "report_group": "security-strategy",
