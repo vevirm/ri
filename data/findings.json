@@ -660,58 +660,6 @@
   },
   {
     "type": "peer_reviewed",
-    "title": "Security ties between autocracies: Insights into authoritarian alignment through the case of China",
-    "summary": "Abstract Over the past decade, China has significantly expanded its security cooperation with other authoritarian regimes, yet existing research struggles to capture the informal and ambiguous nature of these relationships. This article develops a new conceptualisation of ‘security ties’ grounded in the logic of authoritarian rule. Security ties are sustained interactions that contribute to regime survival and unfold across five functional domains: diplomatic and military contacts, support for regime security, military capacity building, non-combat operations, and wartime support. To capture variation, this article analyses security ties along three dimensions: depth, durability, and domestic involvement. As a proof of concept, the framework is applied to China’s security ties with ten representatively selected autocracies between 2019 and 2024. The analysis reveals that China’s ties to Russia are by far the deepest, most durable, and institutionalised. Ties to other autocracies are more selective and uneven. Military capacity building emerges as a central but varied pillar, while cooperation aimed at regime security and wartime support remains limited to a narrow set of partners. The article advances debates on authoritarian alignment by conceptualising it as a differentiated web of security ties rather than a cohesive alliance, and it offers a framework for systematically analysing autocratic security cooperation.",
-    "url": "https://doi.org/10.1017/eis.2026.10053",
-    "doi": "10.1017/eis.2026.10053",
-    "date": "2026-03-02",
-    "year": 2026,
-    "authors": [
-      "Sabine Mokry"
-    ],
-    "source": "European Journal of International Security",
-    "volume": null,
-    "issue": null,
-    "first_page": "1",
-    "last_page": "23",
-    "query": "EU research China technology security",
-    "matched_keywords": [
-      "Europe",
-      "European",
-      "research",
-      "national security",
-      "China",
-      "Russia"
-    ],
-    "matched_categories": {
-      "eu": [
-        "Europe",
-        "European"
-      ],
-      "ri": [
-        "research"
-      ],
-      "geopolitical": [
-        "national security",
-        "China",
-        "Russia"
-      ]
-    },
-    "score": 167,
-    "fingerprint": "doi:10.1017/eis.2026.10053",
-    "discovered_utc": "2026-08-26T20:20:33+00:00",
-    "rotation": {
-      "keywords": [
-        "critical-tech-dual-use",
-        "china-us-russia-ukraine"
-      ],
-      "journal_group": "science-tech-society",
-      "report_group": "eu-oecd",
-      "news_group": "research-news"
-    }
-  },
-  {
-    "type": "peer_reviewed",
     "title": "The new frontier of research competition: perspectives on national AI4S strategies",
     "summary": "Abstract Artificial Intelligence for Science (AI4S) has rapidly emerged as a central arena of global technological competition, with major economies introducing national-level strategies aimed at transforming scientific research paradigms. Across the United States, China, the European Union, the United Kingdom, and Japan, AI4S is widely framed as a strategic instrument for overcoming structural development bottlenecks, accelerating knowledge production, and strengthening national competitiveness. Despite this shared ambition, substantial differences exist in how these countries conceptualize, prioritize, and operationalize AI4S. This perspective offers a systematic comparative analysis of national AI4S strategies, focusing on strategic objectives, implementation pathways, and resource allocation. By identifying convergences and divergences across policy approaches, the analysis highlights emerging models of AI-enabled scientific transformation and their broader implications for science governance. The findings aim to inform future policy design and support evidence-based decision-making in the evolving landscape of AI-driven research systems.",
     "url": "https://doi.org/10.1093/scipol/scag041",
