@@ -713,6 +713,52 @@
   },
   {
     "type": "peer_reviewed",
+    "title": "Critical and strategic raw materials as a challenge to the EU’s strategic autonomy and security",
+    "summary": "The purpose of this article is to present the issue of growing demand for critical and strategic raw materials used in key sectors of the EU economy, as well as to relate them to the situation in Bulgaria in the context of National Research Program “Critical and Strategic Raw Materials for the Green Transition and Sustainable Development”. The methodology used is a classical historical and legal teleological approach. The study is focused on the Critical Raw Materials Act: the current lists of critical and strategic raw materials, the Act’s legal nature and some of its key components: benchmarks and the mechanism for strategic projects. The conclusion provides a critical assessment of some of the findings from the first phase of the above-mentioned Research Program.",
+    "url": "https://doi.org/10.59035/orwp3497",
+    "doi": "10.59035/orwp3497",
+    "date": "2026-09-01",
+    "year": 2026,
+    "authors": [
+      "Irena Ilieva"
+    ],
+    "source": "International Journal on Information Technologies and Security",
+    "volume": "18",
+    "issue": "3",
+    "first_page": "111",
+    "last_page": "120",
+    "query": "EU research critical technologies",
+    "matched_keywords": [
+      "EU",
+      "research",
+      "strategic autonomy"
+    ],
+    "matched_categories": {
+      "eu": [
+        "EU"
+      ],
+      "ri": [
+        "research"
+      ],
+      "geopolitical": [
+        "strategic autonomy"
+      ]
+    },
+    "score": 166,
+    "fingerprint": "doi:10.59035/orwp3497",
+    "discovered_utc": "2026-09-06T20:28:00+00:00",
+    "rotation": {
+      "keywords": [
+        "research-security",
+        "funding-competitiveness"
+      ],
+      "journal_group": "ri-policy-core",
+      "report_group": "europe-thinktanks",
+      "news_group": "international-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "The new frontier of research competition: perspectives on national AI4S strategies",
     "summary": "Abstract Artificial Intelligence for Science (AI4S) has rapidly emerged as a central arena of global technological competition, with major economies introducing national-level strategies aimed at transforming scientific research paradigms. Across the United States, China, the European Union, the United Kingdom, and Japan, AI4S is widely framed as a strategic instrument for overcoming structural development bottlenecks, accelerating knowledge production, and strengthening national competitiveness. Despite this shared ambition, substantial differences exist in how these countries conceptualize, prioritize, and operationalize AI4S. This perspective offers a systematic comparative analysis of national AI4S strategies, focusing on strategic objectives, implementation pathways, and resource allocation. By identifying convergences and divergences across policy approaches, the analysis highlights emerging models of AI-enabled scientific transformation and their broader implications for science governance. The findings aim to inform future policy design and support evidence-based decision-making in the evolving landscape of AI-driven research systems.",
     "url": "https://doi.org/10.1093/scipol/scag041",
