@@ -610,6 +610,64 @@
   },
   {
     "type": "peer_reviewed",
+    "title": "Technological sovereignty in healthcare innovation and production for defence: proposal for an evaluation index to guide European policies",
+    "summary": "",
+    "url": "https://doi.org/10.1080/23779497.2026.2645265",
+    "doi": "10.1080/23779497.2026.2645265",
+    "date": "2026-03-17",
+    "year": 2026,
+    "authors": [
+      "Renaud Laffourcade",
+      "Ileana Akrichi",
+      "Fanny Caputo",
+      "Patrick Cappe de Baillon",
+      "Jiska Kentrop",
+      "Florence Le Page",
+      "Yannick Saintigny"
+    ],
+    "source": "Global Security: Health, Science and Policy",
+    "volume": "11",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null,
+    "query": "European innovation strategic autonomy",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "innovation",
+      "science",
+      "technological sovereignty",
+      "defence"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "innovation",
+        "science"
+      ],
+      "geopolitical": [
+        "technological sovereignty",
+        "defence"
+      ]
+    },
+    "score": 173,
+    "fingerprint": "doi:10.1080/23779497.2026.2645265",
+    "discovered_utc": "2026-09-09T11:25:04+00:00",
+    "rotation": {
+      "keywords": [
+        "funding-competitiveness",
+        "research-security"
+      ],
+      "journal_group": "ri-policy-core",
+      "report_group": "europe-thinktanks",
+      "news_group": "international-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "Infrastructuring Security: Corporate Authority Through Epistemic Control",
     "summary": "Abstract New geopolitical tensions and the rise of hybrid threats have accelerated Western “whole-of-society” approaches to societal security and resilience. One consequence of this shift is the securitization of corporate entities; whereby corporate functions are reframed as instruments of national security. In this context, proprietary dual-use technologies are adapted to meet new security requirements. This article argues that such adaptation redistributes authority from state to corporate actors, and that this shift is mediated through epistemic control grounded in proprietary technologies and expert routines rather than formal delegation. Empirically, the article examines these dynamics in and around the Norwegian petroleum sector in the days following the 2022 sabotage of the Nord Stream pipelines. I introduce infrastructuring security as a conceptual mechanism capturing how security functions become embedded in corporate sociotechnical systems, thereby consolidating the petroleum industry’s position of power within the governance network of critical maritime infrastructure protection. Drawing on interviews with petroleum industry actors, marine technology service providers, and the Norwegian Armed Forces, the article illustrates how this mechanism operates in practice, focusing analysis on the subsea domain. The empirical analysis is informed by theoretical assumptions from the Paris School of Critical Security Studies. I further discuss the tension arising between technological transformation, democratic oversight and security governance as authority becomes infrastructured through corporate sociotechnical arrangements. The article concludes with summarizing remarks and suggests future research avenues where infrastructuring security as a conceptual mechanism may provide a critical, power-attentive approach to technologically mediated security governance.",
     "url": "https://doi.org/10.1007/s41125-026-00112-z",
