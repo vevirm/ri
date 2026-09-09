@@ -771,6 +771,64 @@
   },
   {
     "type": "peer_reviewed",
+    "title": "The <scp>EU</scp> 's Indo‐Pacific Strategy: Perspectives From Australia",
+    "summary": "ABSTRACT This article examines perceptions in Australia of the European Union's Indo‐Pacific Strategy, drawing on interviews conducted with government officials, experts and civil society actors. The EU is regarded positively as a friend and partner of Australia and equally committed to the maintenance of the rules‐based international order. Conversely, the results of this research reveal a limited understanding of the EU's Indo‐Pacific Strategy. They also reveal a persistent and limited understanding of the EU in its own right, distinct from the long‐standing bilateral relations between Australia and the EU's Member States. The findings draw attention not only to the need for clearer, more targeted communications by the EU of its strategic intent in this region, but also to the need in Australia for better education about the EU and a more contemporary understanding among policymakers of the EU as a strategic actor. Ironically, the global disruption that has unfolded since 2022, accelerated by the second Trump Administration, has triggered new energy in the EU–Australia relationship. In March 2026, a trade agreement, a defence agreement and negotiations over Australia's association with the EU's research and innovation programmes have all marked a new and more purposeful phase in EU–Australia relations.",
+    "url": "https://doi.org/10.1111/1758-5899.70238",
+    "doi": "10.1111/1758-5899.70238",
+    "date": "2026-09-09",
+    "year": 2026,
+    "authors": [
+      "Anne McNaughton",
+      "Katarzyna Kwapisz Williams",
+      "Bruce Wilson",
+      "Hector Samuel Martinez Sanchez‐Mateos",
+      "Richard G. Whitman"
+    ],
+    "source": "Global Policy",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU science diplomacy research cooperation",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "research",
+      "innovation",
+      "defence"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "research",
+        "innovation"
+      ],
+      "geopolitical": [
+        "defence"
+      ]
+    },
+    "score": 167,
+    "fingerprint": "doi:10.1111/1758-5899.70238",
+    "discovered_utc": "2026-09-09T16:41:47+00:00",
+    "rotation": {
+      "keywords": [
+        "critical-tech-dual-use",
+        "china-us-russia-ukraine"
+      ],
+      "journal_group": "science-tech-society",
+      "report_group": "eu-oecd",
+      "news_group": "research-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "Critical and strategic raw materials as a challenge to the EU’s strategic autonomy and security",
     "summary": "The purpose of this article is to present the issue of growing demand for critical and strategic raw materials used in key sectors of the EU economy, as well as to relate them to the situation in Bulgaria in the context of National Research Program “Critical and Strategic Raw Materials for the Green Transition and Sustainable Development”. The methodology used is a classical historical and legal teleological approach. The study is focused on the Critical Raw Materials Act: the current lists of critical and strategic raw materials, the Act’s legal nature and some of its key components: benchmarks and the mechanism for strategic projects. The conclusion provides a critical assessment of some of the findings from the first phase of the above-mentioned Research Program.",
     "url": "https://doi.org/10.59035/orwp3497",

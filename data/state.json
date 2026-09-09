@@ -1,7 +1,7 @@
 {
-  "run_index": 262,
-  "last_scan_utc": "2026-09-09T11:25:04+00:00",
-  "scan_duration_seconds": 304,
+  "run_index": 267,
+  "last_scan_utc": "2026-09-09T16:41:47+00:00",
+  "scan_duration_seconds": 303,
   "scan_window": {
     "min_seconds": 300,
     "max_seconds": 1200
@@ -9,22 +9,43 @@
   "rounds_completed": 5,
   "last_rotation": {
     "keyword_batches": [
-      "funding-competitiveness",
-      "research-security"
+      "critical-tech-dual-use",
+      "china-us-russia-ukraine"
     ],
-    "journal_group": "ri-policy-core",
-    "report_group": "europe-thinktanks",
-    "news_group": "international-news",
+    "journal_group": "science-tech-society",
+    "report_group": "eu-oecd",
+    "news_group": "research-news",
     "queries": [
-      "Horizon Europe competitiveness geopolitics",
-      "EU research funding strategic autonomy",
-      "European research security",
-      "EU innovation foreign interference"
+      "EU research critical technologies",
+      "European innovation dual-use",
+      "EU research China technology security",
+      "European innovation United States China competition"
     ]
   },
   "round_log": [
     {
       "round": 1,
+      "rotation": {
+        "keyword_batches": [
+          "science-diplomacy-cooperation",
+          "economic-security"
+        ],
+        "journal_group": "europe-geopolitics",
+        "report_group": "security-strategy",
+        "news_group": "eu-policy-news"
+      },
+      "queries": [
+        "EU science diplomacy research cooperation",
+        "European research international cooperation geopolitics",
+        "EU research economic security",
+        "European innovation strategic autonomy"
+      ],
+      "candidates": 56,
+      "new_qualified": 1,
+      "duration_seconds": 4.3
+    },
+    {
+      "round": 2,
       "rotation": {
         "keyword_batches": [
           "china-us-russia-ukraine",
@@ -40,12 +61,12 @@
         "EU research critical technologies",
         "European innovation dual-use"
       ],
-      "candidates": 106,
+      "candidates": 77,
       "new_qualified": 0,
-      "duration_seconds": 4.1
+      "duration_seconds": 5.0
     },
     {
-      "round": 2,
+      "round": 3,
       "rotation": {
         "keyword_batches": [
           "research-security",
@@ -61,12 +82,12 @@
         "Horizon Europe competitiveness geopolitics",
         "EU research funding strategic autonomy"
       ],
-      "candidates": 21,
+      "candidates": 25,
       "new_qualified": 0,
-      "duration_seconds": 1.1
+      "duration_seconds": 3.9
     },
     {
-      "round": 3,
+      "round": 4,
       "rotation": {
         "keyword_batches": [
           "economic-security",
@@ -82,12 +103,12 @@
         "EU science diplomacy research cooperation",
         "European research international cooperation geopolitics"
       ],
-      "candidates": 44,
-      "new_qualified": 1,
-      "duration_seconds": 2.0
+      "candidates": 55,
+      "new_qualified": 0,
+      "duration_seconds": 3.9
     },
     {
-      "round": 4,
+      "round": 5,
       "rotation": {
         "keyword_batches": [
           "critical-tech-dual-use",
@@ -103,30 +124,9 @@
         "EU research China technology security",
         "European innovation United States China competition"
       ],
-      "candidates": 71,
+      "candidates": 87,
       "new_qualified": 0,
-      "duration_seconds": 1.5
-    },
-    {
-      "round": 5,
-      "rotation": {
-        "keyword_batches": [
-          "funding-competitiveness",
-          "research-security"
-        ],
-        "journal_group": "ri-policy-core",
-        "report_group": "europe-thinktanks",
-        "news_group": "international-news"
-      },
-      "queries": [
-        "Horizon Europe competitiveness geopolitics",
-        "EU research funding strategic autonomy",
-        "European research security",
-        "EU innovation foreign interference"
-      ],
-      "candidates": 23,
-      "new_qualified": 0,
-      "duration_seconds": 3.6
+      "duration_seconds": 3.3
     }
   ],
   "new_counts": {
