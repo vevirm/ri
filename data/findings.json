@@ -1,6 +1,65 @@
 [
   {
     "type": "peer_reviewed",
+    "title": "Civil Security in Europe: an Overview of Research and Innovation Activities across Traditional and Emerging Threats",
+    "summary": "Abstract Europe is facing a rapidly evolving risk landscape characterised by geopolitical instability, emerging technologies, and increasingly complex and interconnected threats. In this context, ensuring security while maintaining competitiveness has become a central policy challenge. This paper examines how recent European policy and research and innovation (R&amp;I) agendas reframe civil security across traditional and emerging threats. Key strategic documents, including the Letta, Draghi and Niinistö reports, are analysed together with the European Union (EU) Preparedness Strategy, current and future Horizon Europe programmes, selected national R&amp;I material and relevant academic literature. The analysis applies four dimensions — threat framing, governance orientation, R&amp;I pathways and normative governance — to assess how the EU preparedness turn is translated into funding priorities, operational-capacity building and governance challenges. The paper highlights the growing emphasis on preparedness in EU security policy, complementing earlier policy actions centred on response and prevention. EU-funded R&amp;I programmes are reviewed with attention to operational uptake, interdisciplinary approaches, dual-use governance and the persistence of the so-called Valley of Death between research outputs and deployable solutions. Seismic risk is used as a critical example to show why traditional hazards remain central to civil security and why prevention remains indispensable for reducing deaths and losses within an all-hazards approach. The paper concludes with recommendations for strengthening societal resilience through better integration of policy, research, practitioners, markets and citizens.",
+    "url": "https://doi.org/10.1007/s41125-026-00116-9",
+    "doi": "10.1007/s41125-026-00116-9",
+    "date": "2026-09-21",
+    "year": 2026,
+    "authors": [
+      "Angelo Masi"
+    ],
+    "source": "European Journal for Security Research",
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null,
+    "query": "EU research economic security",
+    "matched_keywords": [
+      "European Union",
+      "EU",
+      "Europe",
+      "European",
+      "Horizon Europe",
+      "research",
+      "innovation",
+      "academic",
+      "dual-use"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "EU",
+        "Europe",
+        "European",
+        "Horizon Europe"
+      ],
+      "ri": [
+        "research",
+        "innovation",
+        "Horizon Europe",
+        "academic"
+      ],
+      "geopolitical": [
+        "dual-use"
+      ]
+    },
+    "score": 191,
+    "fingerprint": "doi:10.1007/s41125-026-00116-9",
+    "discovered_utc": "2026-09-21T12:49:39+00:00",
+    "rotation": {
+      "keywords": [
+        "science-diplomacy-cooperation",
+        "economic-security"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "Under the Surface: Subsea Infrastructure and Everyday Geoeconomics in the European Union",
     "summary": "Abstract The European Union (EU) is undergoing a geoeconomic shift driven by concerns over its global position, geopolitical tensions and the need for strategic autonomy. Scholars have studied various parts of this ‘geoeconomic turn’ aiming to secure Europe's position in the world. Whilst research has not reached a consensus on the timing of this geoeconomic shift, it is largely depicted as a novel phenomenon through analysis of emerging strategies and policy instruments. This article departs from the analytical perspective of geoeconomic practices and how lower level bureaucrats engage in what we label ‘everyday geoeconomics’: the routinized practices through which agents such as civil servants and industry actors enact, reproduce and negotiate geoeconomic agency in ordinary activities. Through studying the evolving interplay of a complex set of ideas, actors and preferences, we find that these geoeconomic practices have longer roots and have been present throughout the 2000s. We illustrate this through an in‐depth case study of EllaLink, a 5900‐km‐long optical submarine cable between Portugal and Brazil. We provide three contributions to the study of geoeconomics. First, we introduce and illustrate the saliency of a ‘bottom‐up’ approach to the geoeconomic turn in the EU that we call everyday geoeconomics. Second, we show how actualizing geoeconomic ambitions depend on complex processes of marshalling broad coalitions of actors for strategic purposes. Third, we offer a detailed historical case study of a key infrastructure that only recently has begun to receive sustained scrutiny for its strategic implications, namely, subsea communications infrastructure.",
     "url": "https://doi.org/10.1111/jcms.70156",
