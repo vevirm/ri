@@ -400,6 +400,57 @@
   },
   {
     "type": "peer_reviewed",
+    "title": "Riding Out Uncertainty: Tech Trade Resilience across the US, China, and the European Economies",
+    "summary": "",
+    "url": "https://doi.org/10.1016/j.techsoc.2026.103569",
+    "doi": "10.1016/j.techsoc.2026.103569",
+    "date": "2026-09-01",
+    "year": 2026,
+    "authors": [
+      "Ewa Cieślik",
+      "Anna Zamojska"
+    ],
+    "source": "Technology in Society",
+    "volume": null,
+    "issue": null,
+    "first_page": "103569",
+    "last_page": null,
+    "query": "EU research China technology security",
+    "matched_keywords": [
+      "Europe",
+      "European",
+      "technology",
+      "China",
+      "US"
+    ],
+    "matched_categories": {
+      "eu": [
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "technology"
+      ],
+      "geopolitical": [
+        "China",
+        "US"
+      ]
+    },
+    "score": 179,
+    "fingerprint": "doi:10.1016/j.techsoc.2026.103569",
+    "discovered_utc": "2026-09-25T11:53:27+00:00",
+    "rotation": {
+      "keywords": [
+        "economic-security",
+        "science-diplomacy-cooperation"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "THE NORTHERN SOLIDARITY MODEL IN THE EUROPEAN SECURITY SYSTEM AND ITS SIGNIFICANCE FOR TRANSFORMATIONAL PROCESSES IN EUROPE",
     "summary": "The article examines the model of Nordic solidarity as a specific form of institutional, political, defense-related and resource-based response of the Nordic countries to the crisis of European security caused by Russia’s full-scale aggression against Ukraine. In contrast to approaches that reduce support for Ukraine to a set of military or financial aid packages, the article proposes a broader interpretation of Nordic solidarity as an operational model in which shared values, high institutional trust, a developed culture of societal resilience, regional coordination, defense readiness and long-term planning are transformed into practical security mechanisms. The methodological basis of the study combines institutional, comparative, indicator-based and analytical-synthetic approaches. The empirical base is formed using academic literature, NORDEFCO and Nordic Council of Ministers documents, Ukraine–NB8 statements, national governmental materials of Denmark, Norway, Sweden, Finland and Iceland, the Ukraine Support Tracker of the Kiel Institute and NATO defense expenditure data for 2014–2025. The article shows that Nordic solidarity has a multi-level architecture consisting of normative-value, political-communicative, institutional-coordination, defense-resource, societal-resilience and reconstruction-technological dimensions. The quantitative analysis demonstrates that military allocations by the Nordic countries to Ukraine increased substantially in 2022–2025, while their share in European military allocations rose from 11.9% in 2022 to 31.9% in 2025. At the same time, defense expenditure in Denmark, Finland, Norway and Sweden increased both as a share of GDP and in real terms in 2014–2025, indicating a close link between support for Ukraine and the rearmament of the Nordic region itself. The article argues that the significance of this model for Ukraine lies in the transition from the role of an aid recipient to the role of a partner that contributes to European security through combat experience, technological solutions, defense-industrial cooperation and societal resilience. For Europe, Nordic solidarity functions as a mechanism of security regionalization, strengthening of the north-eastern flank, practical rethinking of strategic responsibility and transition from declarative support to shared security action.",
     "url": "https://doi.org/10.70651/3041-2498/2026.5.02",
