@@ -1,6 +1,62 @@
 [
   {
     "type": "peer_reviewed",
+    "title": "Technological Sovereignty and the New Digital Geopolitics: Comparative Quantum Governance in China, the United States, and the European Union",
+    "summary": "How do institutional differences shape the governance of quantum technologies? Comparing China, the United States, and the European Union through a structured, focused comparison of policy documents and standards (2018–2026), this article investigates governance pathways. It develops a configurational framework based on a strategic triangle of state direction, market coordination, and standard-setting capacity. Findings reveal three distinct hybrid trajectories: concentrated state direction in China; mission-oriented federal coordination with market dynamism in the United States; and multilevel normative coordination coupled with an industrial turn in the European Union. These configurations generate critical trade-offs across resource mobilization, commercialization, transparency, and interoperability. Finally, the article advances an operational comparative model and proposes a polycentric governance architecture centered on technical standards, post-quantum cryptographic migration, anticipatory review, and confidence-building measures. UN Sustainable Development Goals (SDGs): SDG 9: Industry, Innovation and Infrastructure; SDG 16: Peace, Justice and Strong Institutions; SDG 10: Reduced Inequalities",
+    "url": "https://doi.org/10.47305/jlia.2026.2373",
+    "doi": "10.47305/jlia.2026.2373",
+    "date": "2026-09-23",
+    "year": 2026,
+    "authors": [
+      "Daniele Battista",
+      "Arthur Gugliucciello",
+      "Alessandra Petrone"
+    ],
+    "source": "Journal of Liberty and International Affairs",
+    "volume": "12",
+    "issue": "2",
+    "first_page": "165",
+    "last_page": "185",
+    "query": "European research international cooperation geopolitics",
+    "matched_keywords": [
+      "European Union",
+      "Europe",
+      "European",
+      "innovation",
+      "technological sovereignty",
+      "China",
+      "United States"
+    ],
+    "matched_categories": {
+      "eu": [
+        "European Union",
+        "Europe",
+        "European"
+      ],
+      "ri": [
+        "innovation"
+      ],
+      "geopolitical": [
+        "technological sovereignty",
+        "China",
+        "United States"
+      ]
+    },
+    "score": 191,
+    "fingerprint": "doi:10.47305/jlia.2026.2373",
+    "discovered_utc": "2026-09-26T21:12:42+00:00",
+    "rotation": {
+      "keywords": [
+        "economic-security",
+        "science-diplomacy-cooperation"
+      ],
+      "journal_group": "europe-geopolitics",
+      "report_group": "security-strategy",
+      "news_group": "eu-policy-news"
+    }
+  },
+  {
+    "type": "peer_reviewed",
     "title": "Civil Security in Europe: an Overview of Research and Innovation Activities across Traditional and Emerging Threats",
     "summary": "Abstract Europe is facing a rapidly evolving risk landscape characterised by geopolitical instability, emerging technologies, and increasingly complex and interconnected threats. In this context, ensuring security while maintaining competitiveness has become a central policy challenge. This paper examines how recent European policy and research and innovation (R&amp;I) agendas reframe civil security across traditional and emerging threats. Key strategic documents, including the Letta, Draghi and Niinistö reports, are analysed together with the European Union (EU) Preparedness Strategy, current and future Horizon Europe programmes, selected national R&amp;I material and relevant academic literature. The analysis applies four dimensions — threat framing, governance orientation, R&amp;I pathways and normative governance — to assess how the EU preparedness turn is translated into funding priorities, operational-capacity building and governance challenges. The paper highlights the growing emphasis on preparedness in EU security policy, complementing earlier policy actions centred on response and prevention. EU-funded R&amp;I programmes are reviewed with attention to operational uptake, interdisciplinary approaches, dual-use governance and the persistence of the so-called Valley of Death between research outputs and deployable solutions. Seismic risk is used as a critical example to show why traditional hazards remain central to civil security and why prevention remains indispensable for reducing deaths and losses within an all-hazards approach. The paper concludes with recommendations for strengthening societal resilience through better integration of policy, research, practitioners, markets and citizens.",
     "url": "https://doi.org/10.1007/s41125-026-00116-9",
